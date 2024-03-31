@@ -11,7 +11,7 @@ const BestSeller = () => {
       <div className="best-seller">
         <div className="container">
           <div className="top-btns">
-            <button className="bs">Best Seller</button>
+            <button className="bs">NEW ARRIVALS</button>
             <button className="va">View all</button>
           </div>
         </div>
