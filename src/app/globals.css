@@ -279,3 +279,150 @@ span.swiper-pagination-bullet {
   justify-content: space-between;
   align-items: center;
 }
+.carti {
+  padding: 26px 112px 27px 112px;
+}
+.img-big-one {
+  background-image: url(https://media.gq.com/photos/59132b24f817d5612dbea4af/master/w_1600,c_limit/gq-playboi-carti-03.jpg);
+  background-repeat: no-repeat;
+  width: 488px;
+  height: 577px;
+  background-size: 102%;
+  border-radius: 4px;
+}
+.lil-img-one {
+  background-image: url(https://media.gq.com/photos/59132b259fe30f3d4ab08655/master/w_1600,c_limit/gq-playboi-carti-01.jpg);
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 280px;
+  background-size: 100%;
+}
+.lil-img-two {
+  background-image: url(https://media.gq.com/photos/59132b23ee7e6447b1025d03/master/w_1600,c_limit/gq-playboi-carti-02.jpg);
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 280px;
+  background-size: 100%;
+}
+.img-big-two {
+  background-image: url(https://media.gq.com/photos/59132b27ee7e6447b1025d05/master/w_1600,c_limit/gq-playboi-carti-04.jpg);
+  background-repeat: no-repeat;
+  width: 488px;
+  height: 577px;
+  background-size: 102%;
+  border-radius: 4px;
+  box-shadow: 0px 0px 431px 0px rgba(0, 0, 0, 0.25);
+}
+.flex-carti {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+}
+.carti-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding-top: 27px;
+}
+.ig-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ig-btn button {
+  background: var(--secondary, #393939);
+  padding: 13px 25px 13px 39px;
+  color: var(--white, #fff);
+  border-radius: 82px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+  background-image: url("../assets/ig.svg");
+  background-repeat: no-repeat;
+  background-position: 10% 52%;
+}
+.news-top-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 39px;
+}
+.news-top-btns .va {
+  border-radius: 82px;
+  background: var(--secondary, #393939);
+  padding: 13px 39px;
+  align-items: flex-start;
+  gap: 8px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+  transition: 0.3s;
+}
+.news-top-btns .va:hover {
+  background: transparent;
+  color: #393939;
+}
+.news-top-btns .news-btn {
+  padding: 8px 14px;
+  border-radius: 2px;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+.news {
+  background: #f9f9f9;
+  padding-bottom: 53px;
+}
+.news-box {
+  margin-top: 23px;
+  display: flex;
+  max-width: 1216px;
+  padding: 10px 80px 10px 13px;
+  align-items: center;
+  gap: 60px;
+  border-radius: 4px;
+  background: #fff;
+}
+.news-box img {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 4px;
+}
+.news-box-info h6 {
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.news-box-info h4 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.72px;
+  margin: 0;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.news-box-info button {
+  color: var(--secondary, #393939);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+  border-radius: 82px;
+  border: 1px solid var(--tertiary, #939393);
+  padding: 10px 30px 10px 30px;
+  transition: 0.3s;
+}
+.news-box-info button:hover {
+  background: var(--tertiary, #393939);
+  color: #fff;
+}
