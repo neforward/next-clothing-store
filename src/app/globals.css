@@ -2,32 +2,88 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.bg-cart {
+  background-image: url("../assets/cart.svg");
+  background-repeat: no-repeat;
+  padding: 14px 8px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  width: 39px;
+  background-position: 50% 50%;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.first-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 37px;
+}
+.first-header nav {
+  display: flex;
+  gap: 14px;
+}
+.first-header nav a {
+  color: #393939;
+  font-size: 15px;
+}
+.second-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.hero {
+  padding-top: 90px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 20% 100%;
+  background-image: url("../assets/bg-hero.png");
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-content h2 {
+  color: #000;
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: -1.32px;
+  max-width: 800px;
+}
+.hero-content p {
+  color: #393939;
+  font-size: 18px;
+  font-weight: 400;
+}
+.hero-btn {
+  background: #393939;
+  padding: 13px 39px 13px 40px;
+  border-radius: 82px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+}
+.hero-img {
+  background-image: url(../assets/img.png);
+  background-repeat: no-repeat;
+  width: 770px;
+  height: 747px;
 }
