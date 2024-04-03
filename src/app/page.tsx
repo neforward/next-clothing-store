@@ -5,6 +5,7 @@ import Wear from "./components/Wear";
 import NewArrivals from "./components/NewArrivals";
 import Carti from "./components/Carti";
 import News from "./components/News";
+import About from "./components/About";
 export default function Home() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Home() {
         <NewArrivals />
         <Carti />
         <News />
+        <About />
       </main>
     </>
   );

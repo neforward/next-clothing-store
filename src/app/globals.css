@@ -426,3 +426,83 @@ span.swiper-pagination-bullet {
   background: var(--tertiary, #393939);
   color: #fff;
 }
+.first-about-section button {
+  border-radius: 82px;
+  background: var(--text, #181818);
+  padding: 13px 35px;
+  color: var(--white, #fff);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+  transition: 0.3s;
+}
+.first-about-section button:hover {
+  background: var(--secondary, #fff);
+  color: #181818;
+}
+.first-about-section h3 {
+  color: #000;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: -1.26px;
+  margin: 0;
+}
+.first-about-section p {
+  color: var(--secondary, #393939);
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 492px;
+  margin: 0;
+}
+.about-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.second-about-section .gredient {
+  fill: linear-gradient(
+    90deg,
+    rgba(224, 195, 252, 0.75) 0%,
+    rgba(142, 197, 252, 0.75) 100%
+  );
+  filter: blur(187px);
+  background: rgba(142, 197, 252, 0.75) 100%;
+}
+.gredient-color {
+  width: 300px;
+  height: 100px;
+  position: relative;
+  left: 0;
+  top: 0;
+  background: rgba(142, 197, 252, 0.75) 100%;
+}
+.gredient-color-two {
+  width: 300px;
+  height: 100px;
+  position: relative;
+  left: 0;
+  top: 0;
+  background: rgba(224, 195, 252, 0.75) 0%;
+}
+
+.second-about-section .bg {
+  border-radius: 4px;
+  background: var(--text, #181818);
+  max-width: 592px;
+  height: 592px;
+  transform: rotate(6.92deg);
+}
+.second-about-section .bg img {
+  border-radius: 4px;
+  max-width: 592px;
+  height: 592px;
+  transform: rotate(-7deg);
+}
+.about-section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.about-section-btn {
+  padding-top: 27px;
+}
