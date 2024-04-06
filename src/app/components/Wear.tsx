@@ -38,6 +38,9 @@ const Wear = () => {
                   </div>
                 </div>
               </div>
+              <div className="btn-center">
+                <button>Visit shop</button>
+              </div>
             </div>
           </div>
         </div>

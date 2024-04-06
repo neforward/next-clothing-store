@@ -9,7 +9,9 @@ const Hero = () => {
               <p>We create digital clothing and connect it with real people</p>
               <button className="hero-btn">Shop now</button>
             </div>
-            <div className="hero-img"></div>
+            <div className="hero-img">
+              <img src="https://i.ibb.co/kh4TFKz/img.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
