@@ -573,3 +573,20 @@ span.swiper-pagination-bullet {
   text-transform: uppercase;
   opacity: 0.9;
 }
+
+@media screen and (max-width: 1360px) {
+  .hero-content {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .wear-content {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+
+}

@@ -41,7 +41,7 @@ const Header = () => {
                 </Link>
               </div>
               <nav>
-                <Link href="">
+                <Link href="/shop">
                   <span>Shop now</span>
                 </Link>
                 <Link href="">How to Wear</Link>
@@ -123,6 +123,7 @@ const Header = () => {
               </div>
               <div className="bg-cart"></div>
             </div>
+            {/* <div className="menu"></div> */}
           </div>
         </div>
       </header>
