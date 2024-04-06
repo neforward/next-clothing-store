@@ -16,7 +16,8 @@ const News = () => {
               <div className="news-box-info">
                 <h6>01.06.2017</h6>
                 <h4>
-                  Music’s newest — and most mysterious — couple is making their red carpet debut.
+                  Music’s newest — and most mysterious — couple is making their
+                  red carpet debut.
                 </h4>
                 <button>Read more</button>
               </div>

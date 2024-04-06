@@ -8,10 +8,6 @@ const Header = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-
-  const closeMenu = () => {
-    setMenuOpen(false);
-  };
   return (
     <>
       <header className="header">
@@ -56,9 +52,9 @@ const Header = () => {
                   <span>Shop now</span>
                 </Link>
                 <Link href="">How to Wear</Link>
-                <Link href="">Colaboration</Link>
+                <Link href="">Collaboration</Link>
                 <Link href="">Meta News</Link>
-                <Link href="">About</Link>
+                <Link href="/about">About</Link>
               </nav>
             </div>
             <div className="second-header">
@@ -164,13 +160,13 @@ const Header = () => {
                     <Link href="/wear">How to Wear</Link>
                   </div>
                   <div className="nav-link">
-                    <Link href="/wear">Colaboration</Link>
+                    <Link href="/collab">Collaboration</Link>
                   </div>
                   <div className="nav-link">
-                    <Link href="/wear">Meta News</Link>
+                    <Link href="/news">Meta News</Link>
                   </div>
                   <div className="nav-link">
-                    <Link href="/wear">About</Link>
+                    <Link href="/about">About</Link>
                   </div>
                   <div className="nav-link">
                     <div className="social-links">

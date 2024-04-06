@@ -10,7 +10,7 @@ const Hero = () => {
               <button className="hero-btn">Shop now</button>
             </div>
             <div className="hero-img">
-              <img src="https://i.ibb.co/kh4TFKz/img.png" alt="" />
+              <img src="https://i.ibb.co/TPRCykC/img.png" alt="" />
             </div>
           </div>
         </div>

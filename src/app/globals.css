@@ -22,6 +22,14 @@ body {
   width: 39px;
   background-position: 50% 50%;
 }
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
 .header-content {
   display: flex;
   justify-content: space-between;
@@ -113,6 +121,7 @@ body {
   background: lightgray 11.91px 39.606px / 91.493% 85.393% no-repeat, #fff;
   box-shadow: 0px 4px 9px 0px rgba(202, 202, 202, 0.25);
 }
+
 .swiper-box-info button {
   padding: 8px 14px;
   border-radius: 2px;
@@ -417,7 +426,7 @@ span.swiper-pagination-bullet {
   padding-top: 12px;
 }
 .news-box-info button {
-  color: var(--secondary, #393939);
+  color: #393939;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: -0.45px;
@@ -512,7 +521,8 @@ span.swiper-pagination-bullet {
   padding-top: 27px;
 }
 .footer {
-  background: var(--text, #181818);
+  background: #181818;
+  box-sizing: border-box;
   padding-top: 35px;
 }
 .footer-nav {
@@ -688,15 +698,7 @@ span.swiper-pagination-bullet {
   gap: 16px;
   padding-left: 15px;
 }
-.header-logo img {
-  width: 64px;
-  height: 64px;
-}
 
-.burger-logo img {
-  width: 64px;
-  height: 64px;
-}
 .btn-center {
   display: none;
 }
@@ -770,12 +772,20 @@ span.swiper-pagination-bullet {
   .news-box-info h4 {
     max-width: 400px;
   }
-  .news-box-info {
+  .news-box img {
+    height: 100%;
   }
 }
 @media screen and (max-width: 1440px) {
+  .news-top-btns {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .carti-content {
     flex-direction: column;
+  }
+  .ig-btn {
+    justify-content: center;
   }
   .flex-carti {
     flex-direction: row;
@@ -840,13 +850,34 @@ span.swiper-pagination-bullet {
     align-items: center;
   }
 }
+@media screen and (max-width: 1000px) {
+  .swiper-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 770px) {
+  .first-about-section {
+    padding-left: 15px;
+  }
   .hero-img {
     background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 500px;
   }
   .hero-img img {
     display: flex;
     max-width: 770px;
+  }
+  .hero {
+    background-position: 20% 90%;
+  }
+  .hero-text {
+    padding-left: 15px;
   }
 }
 @media screen and (max-width: 940px) {
@@ -856,6 +887,9 @@ span.swiper-pagination-bullet {
   }
   .footer-responsive {
     display: flex;
+  }
+  .footer-res-div {
+    margin-bottom: 30px;
   }
   .footer-nav span {
     display: none;
@@ -890,6 +924,10 @@ span.swiper-pagination-bullet {
   .header {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .header-logo svg {
+    position: relative;
+    z-index: 10;
   }
   .burger-menu {
     display: flex;
