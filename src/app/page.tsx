@@ -10,7 +10,6 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
-      <Header />
       <main className="main">
         <Hero />
         <BestSeller />
@@ -19,7 +18,6 @@ export default function Home() {
         <Carti />
         <News />
         <About />
-        <Footer />
       </main>
     </>
   );

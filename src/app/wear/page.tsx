@@ -1,5 +1,5 @@
 export default function Wear() {
-    return <>
-    </>;
-  }
+  return <>
   
+  </>;
+}

@@ -1,3 +1,5 @@
 export default function News() {
-  return <></>;
+  return <>
+    
+  </>;
 }

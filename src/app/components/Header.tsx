@@ -50,7 +50,7 @@ const Header = () => {
               <nav>
                 <Link href="/shop">
                   <span>Shop now</span>
-                </Link>   
+                </Link>
                 <Link href="/wear">How to Wear</Link>
                 <Link href="/collab">Collaboration</Link>
                 <Link href="/news">Meta News</Link>
@@ -141,20 +141,22 @@ const Header = () => {
               </div>
               <div className="burger-nav">
                 <nav className={`nav-menu ${menuOpen ? "active" : ""}`}>
-                  <Link href="/shop">
-                    <span>Shop now</span>
-                  </Link>
-                  <div className="row-items">
-                    <Link href="">Woman</Link>
-                    <span>ITEMS</span>
-                  </div>
-                  <div className="row-items">
-                    <Link href="">Man/Unisex</Link>
-                    <span>ITEMS</span>
-                  </div>
-                  <div className="row-items">
-                    <Link href="">All</Link>
-                    <span>ITEMS</span>
+                  <div className="gap-rows">
+                    <Link href="/shop">
+                      <span>Shop now</span>
+                    </Link>
+                    <div className="row-items">
+                      <Link href="">Woman</Link>
+                      <span>ITEMS</span>
+                    </div>
+                    <div className="row-items">
+                      <Link href="">Man/Unisex</Link>
+                      <span>ITEMS</span>
+                    </div>
+                    <div className="row-items">
+                      <Link href="">All</Link>
+                      <span>ITEMS</span>
+                    </div>
                   </div>
                   <div className="nav-link">
                     <Link href="/wear">How to Wear</Link>
