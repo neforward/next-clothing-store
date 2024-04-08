@@ -809,6 +809,7 @@ span.swiper-pagination-bullet {
   margin: 0;
 }
 .shop-box-info button {
+  cursor: default;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
