@@ -758,7 +758,7 @@ span.swiper-pagination-bullet {
   border-radius: 11px;
   background: #faf9f9;
   padding: 23px 28px 33px 20px;
-  width: 280px;
+  width: 300px;
   height: 1490px;
 }
 .brands-title {
@@ -786,13 +786,14 @@ span.swiper-pagination-bullet {
   border-radius: 13px;
   border: 1px solid #e2e2e2;
   max-width: 100%;
-  height: 315px;
+  height: 340px;
 }
 .shop-catalog {
   display: flex;
   flex-wrap: wrap;
   gap: 33px;
 }
+
 .shop-box-info h6 {
   padding-top: 11px;
   color: var(--tertiary, #939393);
@@ -804,7 +805,7 @@ span.swiper-pagination-bullet {
 .shop-box-info h4 {
   padding-top: 1px;
   color: #000;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 600;
   margin: 0;
 }
@@ -882,6 +883,18 @@ span.swiper-pagination-bullet {
   }
 }
 @media screen and (max-width: 1200px) {
+  .shop-brands {
+    display: none;
+  }
+  .shop-catalog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .shop-top {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .news-box {
     flex-direction: column;
     padding: 16px 16px 16px 16px;
@@ -894,6 +907,7 @@ span.swiper-pagination-bullet {
     height: 250px;
   }
 }
+
 @media screen and (max-width: 1440px) {
   .news-top-btns {
     padding-left: 15px;
