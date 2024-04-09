@@ -785,7 +785,7 @@ span.swiper-pagination-bullet {
 .shop-catalog .shop-box img {
   border-radius: 13px;
   border: 1px solid #e2e2e2;
-  max-width: 100%;
+  width: 265px;
   height: 340px;
 }
 .shop-catalog {

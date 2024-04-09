@@ -109,7 +109,7 @@ export default function Shop() {
         "https://cdn.rickowens.eu/products/167788/large/RO01D2384_SBF_09_07.jpg?1706112287",
     },
     {
-      id: 4,
+      id: 5,
       price: "455",
       name: "LONG BOXERS IN BLACK",
       type: "Boxers",
@@ -131,7 +131,7 @@ export default function Shop() {
         "https://cdn.rickowens.eu/products/158531/large/MU02C8H01_M3675_999_07.jpg?1698226430",
     },
     {
-      id: 5,
+      id: 6,
       price: "1.090",
       name: "DRKSHDW LIDO BIAS BOOTCUT IN SKY",
       type: "Pants",
@@ -153,7 +153,7 @@ export default function Shop() {
         "https://cdn.rickowens.eu/products/165056/large/DU01D1352_SKYDE_4653D_07.jpg?1702302666",
     },
     {
-      id: 6,
+      id: 7,
       price: "1.715",
       name: "DRKSHDW LIDO BIAS BOOTCUT 13OZ SKY",
       type: "Pants",
@@ -175,7 +175,7 @@ export default function Shop() {
         "https://cdn.rickowens.eu/products/166184/large/DU01D1352_DKYSH_46_07.jpg?1702895281",
     },
     {
-      id: 7,
+      id: 8,
       price: "1.715",
       name: "LIDO DOUBLE CARGO JUMBO BELAS IN",
       type: "Pants",
@@ -195,6 +195,162 @@ export default function Shop() {
         "https://cdn.rickowens.eu/products/165275/large/DU01D1398_BR_09_06.jpg?1702304273",
       imgURL7:
         "https://cdn.rickowens.eu/products/165276/large/DU01D1398_BR_09_07.jpg?1702304274",
+    },
+    {
+      id: 9,
+      price: "455",
+      name: "LIDO SNEAKS IN BLACK/MILK/MILK COTTON",
+      type: "Shoes",
+      gender: "male",
+      brand: "RICK OWENS",
+      imgURL:
+        "https://cdn.rickowens.eu/products/164490/large/DU01D1800_CBES1_911_01.jpg?1702025520",
+      imgURL2:
+        "https://cdn.rickowens.eu/products/164489/large/DU01D1800_CBES1_911_02.jpg?1702025520",
+      imgURL3:
+        "https://cdn.rickowens.eu/products/164491/large/DU01D1800_CBES1_911_03.jpg?1702025520",
+      imgURL4:
+        "https://cdn.rickowens.eu/products/164492/large/DU01D1800_CBES1_911_04.jpg?1702025521",
+    },
+    {
+      id: 10,
+      price: "365",
+      name: "LIDO LOW SNEAKS IN BLACK/MILK/MILK",
+      type: "Shoes",
+      gender: "male",
+      brand: "RICK OWENS",
+      imgURL:
+        "https://cdn.rickowens.eu/products/164493/large/DU01D1802_CB_911_01.jpg?1702025557",
+      imgURL2:
+        "https://cdn.rickowens.eu/products/164495/large/DU01D1802_CB_911_02.jpg?1702025557",
+      imgURL3:
+        "https://cdn.rickowens.eu/products/164494/large/DU01D1802_CB_911_03.jpg?1702025557",
+      imgURL4:
+        "https://cdn.rickowens.eu/products/164496/large/DU01D1802_CB_911_04.jpg?1702025558",
+    },
+    {
+      id: 11,
+      price: "410",
+      name: "LIDO JUMBO LACE PUFFER LOW SNEAKS IN",
+      type: "Shoes",
+      gender: "male",
+      brand: "RICK OWENS",
+      imgURL:
+        "https://cdn.rickowens.eu/products/165364/large/DU01D1819_BRW2_9811_01.jpg?1702305061",
+      imgURL2:
+        "https://cdn.rickowens.eu/products/165366/large/DU01D1819_BRW2_9811_02.jpg?1702305061",
+      imgURL3:
+        "https://cdn.rickowens.eu/products/165365/large/DU01D1819_BRW2_9811_03.jpg?1702305061",
+      imgURL4:
+        "https://cdn.rickowens.eu/products/165367/large/DU01D1819_BRW2_9811_04.jpg?1702305062",
+    },
+    {
+      id: 12,
+      price: "3.200",
+      name: "Leather Wool Varsity Jacket",
+      type: "Jacket",
+      gender: "male",
+      brand: "Off-White",
+      imgURL:
+        "https://cdn-images.farfetch-contents.com/off-white-leather-wool-varsity-jacket_21254500_52255740_1000.jpg?c=3",
+      imgURL2:
+        "https://cdn-images.farfetch-contents.com/off-white-leather-wool-varsity-jacket_21254500_52255741_1000.jpg?c=3",
+      imgURL3:
+        "https://cdn-images.farfetch-contents.com/off-white-leather-wool-varsity-jacket_21254500_52255745_1000.jpg?c=3",
+      imgURL4:
+        "https://cdn-images.farfetch-contents.com/off-white-leather-wool-varsity-jacket_21254500_52255748_1000.jpg?c=3",
+      imgURL5:
+        "https://cdn-images.farfetch-contents.com/off-white-leather-wool-varsity-jacket_21254500_52255746_1000.jpg?c=3",
+    },
+    {
+      id: 13,
+      price: "524",
+      name: "Abc Camo Shark Full Zip Hoodie",
+      type: "Jacket",
+      gender: "male",
+      brand: "Bape",
+      imgURL:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115005MPKX/0ZXSWM115005MPKX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL2:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115005MPKX/0ZXSWM115005MPKX-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL3:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115005MPKX/0ZXSWM115005MPKX-pdp-3.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    },
+    {
+      id: 14,
+      price: "552",
+      name: "Comic Art Shark Zip Hoodie",
+      type: "Jacket",
+      gender: "male",
+      brand: "Bape",
+      imgURL:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115309MMLX/0ZXSWM115309MMLX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL2:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115309MMLX/0ZXSWM115309MMLX-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL3:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115309MMLX/0ZXSWM115309MMLX-pdp-3.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL4:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115309MMLX/0ZXSWM115309MMLX-pdp-4.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL5:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115309MMLX/0ZXSWM115309MMLX-pdp-5.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL6:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115309MMLX/0ZXSWM115309MMLX-pdp-6.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    },
+    {
+      id: 15,
+      price: "666",
+      name: "Color Camo Double Shark Full Zip Hoodie",
+      type: "Hoodie",
+      gender: "male",
+      brand: "Bape",
+      imgURL:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115001MYEX/0ZXSWM115001MYEX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL2:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115001MYEX/0ZXSWM115001MYEX-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL3:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115001MYEX/0ZXSWM115001MYEX-pdp-3.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL4:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115001MYEX/0ZXSWM115001MYEX-pdp-4.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL5:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115001MYEX/0ZXSWM115001MYEX-pdp-5.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL6:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115001MYEX/0ZXSWM115001MYEX-pdp-6.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    },
+    {
+      id: 16,
+      price: "595",
+      name: "BAPE Art Camo Shark Hoodie",
+      type: "Hoodie",
+      gender: "male",
+      brand: "Bape",
+      imgURL:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115055LGRX/0ZXSWM115055LGRX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL2:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115055LGRX/0ZXSWM115055LGRX-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL3:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115055LGRX/0ZXSWM115055LGRX-pdp-3.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL4:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWM115055LGRX/0ZXSWM115055LGRX-pdp-4.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    },
+    {
+      id: 17,
+      price: "1.643",
+      name: "BAPE X Canada Goose Crofto Puffer",
+      type: "Jacket",
+      gender: "male",
+      brand: "Bape",
+      imgURL:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144901LGRX/0ZXDNM144901LGRX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL2:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144901LGRX/0ZXDNM144901LGRX-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL3:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144901LGRX/0ZXDNM144901LGRX-pdp-3.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL4:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144901LGRX/0ZXDNM144901LGRX-pdp-4.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL5:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144901LGRX/0ZXDNM144901LGRX-pdp-5.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+      imgURL6:
+        "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144901LGRX/0ZXDNM144901LGRX-pdp-6.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
     },
   ];
   return (
@@ -217,12 +373,12 @@ export default function Shop() {
             <div className="shop-main">
               <div className="shop-brands">
                 <div className="brands-title">
-                  <h3>Shop by Designer</h3>
+                  <h3>Shop by brands</h3>
                 </div>
                 <div className="brands-column">
-                  <span>RESS</span>
-                  <span>19G</span>
-                  <span>2nd3rd</span>
+                  <span>Rick Owens</span>
+                  <span>OffWhite</span>
+                  <span>Bape</span>
                   <span></span>
                   <span></span>
                   <span></span>
