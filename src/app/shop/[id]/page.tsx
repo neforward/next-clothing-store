@@ -5,110 +5,134 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
-import SwiperCSS from "./swiper.module.css";
 
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 import { useState } from "react";
+import { useParams } from "next/navigation";
+import { useSelector } from "react-redux";
+import { RootState } from "@/redux/features/rootReducer";
 export default function ShopItem() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  type IDType = number;
+  const { id } = useParams();
+  const clothingData = useSelector(
+    (state: RootState) => state.clothing.clothingData
+  );
 
+  const normalizedId = Array.isArray(id) ? id[0] : id;
+
+  const clothing = clothingData.find(
+    (item) => item.id === parseInt(normalizedId)
+  );
+  if (!clothing) {
+    return <div>Clothing item not found</div>;
+  }
   return (
     <>
       <div className="shop-detail">
         <div className="container">
-          <div className={SwiperCSS.flex}>
-            <Swiper
-              style={{
-                // @ts-ignore
-                "--swiper-navigation-color": "#fff",
-                "--swiper-pagination-color": "#fff",
-                "--swiper-pagination-bullet-color": "#000",
-                "--swiper-pagination-bullet-active-color": "#fff",
-                "--swiper-scrollbar-color": "#fff",
-                "--swiper-scrollbar-thumb-color": "#fff",
-                "--swiper-scrollbar-track-color": "#fff",
-              }}
-              spaceBetween={10}
-              navigation={true}
-              thumbs={{ swiper: thumbsSwiper }}
-              modules={[FreeMode, Navigation, Thumbs]}
-              className={SwiperCSS.my}
-            >
+          <Swiper
+            style={{
+              // @ts-ignore
+              "--swiper-navigation-color": "#000",
+              "--swiper-pagination-color": "#fff",
+              "--swiper-pagination-bullet-color": "#000",
+              "--swiper-pagination-bullet-active-color": "#fff",
+              "--swiper-scrollbar-color": "#fff",
+              "--swiper-scrollbar-thumb-color": "#fff",
+              "--swiper-scrollbar-track-color": "#fff",
+            }}
+            spaceBetween={10}
+            navigation={true}
+            thumbs={{ swiper: thumbsSwiper }}
+            modules={[FreeMode, Navigation, Thumbs]}
+            className="swiper-view"
+          >
+            {clothing.imgURL && (
               <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                <img src={clothing.imgURL} alt={clothing.name} />
               </SwiperSlide>
+            )}
+            {clothing.imgURL2 && (
               <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                <img src={clothing.imgURL2} alt={clothing.name} />
               </SwiperSlide>
+            )}
+            {clothing.imgURL3 && (
               <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                <img src={clothing.imgURL3} alt={clothing.name} />
               </SwiperSlide>
+            )}
+            {clothing.imgURL4 && (
               <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                <img src={clothing.imgURL4} alt={clothing.name} />
               </SwiperSlide>
+            )}
+            {clothing.imgURL5 && (
               <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                <img src={clothing.imgURL5} alt={clothing.name} />
               </SwiperSlide>
+            )}
+            {clothing.imgURL6 && (
               <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                <img src={clothing.imgURL6} alt={clothing.name} />
               </SwiperSlide>
+            )}
+            {clothing.imgURL7 && (
               <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                <img src={clothing.imgURL7} alt={clothing.name} />
               </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-              </SwiperSlide>
-            </Swiper>
+            )}
+          </Swiper>
 
-            <Swiper
-              onSwiper={setThumbsSwiper}
-              spaceBetween={10}
-              slidesPerView={4}
-              freeMode={true}
-              watchSlidesProgress={true}
-              modules={[FreeMode, Navigation, Thumbs]}
-              className={SwiperCSS.my}
-            >
-              <div className={SwiperCSS.flexSlide}>
+          <Swiper
+            // @ts-ignore
+            onSwiper={setThumbsSwiper}
+            spaceBetween={10}
+            slidesPerView={4}
+            freeMode={true}
+            watchSlidesProgress={true}
+            modules={[FreeMode, Navigation, Thumbs]}
+            className="swiper-slides"
+          >
+            <div className="flexSlide">
+              {clothing.imgURL && (
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                  <img src={clothing.imgURL} alt={clothing.name} />
                 </SwiperSlide>
+              )}
+              {clothing.imgURL2 && (
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                  <img src={clothing.imgURL2} alt={clothing.name} />
                 </SwiperSlide>
+              )}
+              {clothing.imgURL3 && (
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                  <img src={clothing.imgURL3} alt={clothing.name} />
                 </SwiperSlide>
+              )}
+              {clothing.imgURL4 && (
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                  <img src={clothing.imgURL4} alt={clothing.name} />
                 </SwiperSlide>
+              )}
+              {clothing.imgURL5 && (
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                  <img src={clothing.imgURL5} alt={clothing.name} />
                 </SwiperSlide>
+              )}
+              {clothing.imgURL6 && (
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                  <img src={clothing.imgURL6} alt={clothing.name} />
                 </SwiperSlide>
+              )}
+              {clothing.imgURL7 && (
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                  <img src={clothing.imgURL7} alt={clothing.name} />
                 </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-                </SwiperSlide>
-              </div>
-            </Swiper>
-          </div>
+              )}
+            </div>
+          </Swiper>
           <div className="shop-detail"></div>
         </div>
       </div>
