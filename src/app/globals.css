@@ -825,6 +825,13 @@ span.swiper-pagination-bullet {
   letter-spacing: 0.6px;
   text-transform: uppercase;
 }
+
+
+.shop-detail {
+  padding-top: 100px;
+}
+
+
 @media screen and (max-width: 1360px) {
   .wear-first h2 {
     text-align: start;
