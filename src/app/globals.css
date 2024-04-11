@@ -243,7 +243,6 @@ span.swiper-pagination-bullet {
   background: transparent;
   color: #393939;
 }
-
 .step-flex {
   display: flex;
   flex-direction: column;
@@ -1428,6 +1427,92 @@ input::-webkit-inner-spin-button {
     #716fff 100.07%
   );
   margin-bottom: 14.5%;
+}
+.article-top h4 {
+  color: var(--text, #181818);
+  font-size: 28px;
+  font-weight: 600;
+}
+.white-bg {
+  background: #fff;
+  max-width: 100%;
+  height: 100px;
+}
+.article {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background: #f7f7f7;
+}
+.wear-page {
+  padding-top: 100px;
+}
+.wear-top h2 {
+  color: #000;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: -1.26px;
+  margin: 0;
+}
+.wear-top p {
+  color: var(--secondary, #393939);
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 16px;
+}
+.wear-pic-one {
+  width: 385px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("https://assets.vogue.com/photos/5aa7ddfe1d6ee50bf5842f0e/master/w_2580%2Cc_limit/05-kendall-jenner-vogue-cover-april-2018.jpg");
+}
+.wear-pic-two {
+  width: 385px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("https://assets.vogue.com/photos/5aa7de0085604a74564ec12f/master/w_2580%2Cc_limit/07-kendall-jenner-vogue-cover-april-2018.jpg");
+}
+.wear-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.bg-pics {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+.wear-txt-sect button {
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding: 8px 14px;
+  border-radius: 2px;
+  border: 1px solid #000;
+  cursor: default;
+}
+.wear-txt-sect h3 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.96px;
+}
+.wear-txt-sect ul {
+  color: var(--secondary, #393939);
+  font-size: 16px;
+  font-weight: 400;
+}
+.wear-txt-sect ul li {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  color: var(--text, #181818);
+  font-weight: 500;
 }
 @media screen and (max-width: 1195px) {
 }
