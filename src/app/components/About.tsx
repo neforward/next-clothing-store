@@ -26,7 +26,7 @@ const About = () => {
               </div>
               <div className="bg">
                 <img
-                  src="https://s3-alpha-sig.figma.com/img/159b/15a1/871a9ac61989c787b8f6255c976c6b84?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=izgHwpYy1J8c8fS0a7L9sDWrESDdpN8X4VwvKO~k92~IIYpywu4DDuMB0Fxqr8UjUlI~VlMRbAwsca7G1Kxg0Iow1p66HHD6Ip~row41w0fHB-7JaZZdYy8Uev58lSk4HkZdsJrUCh0fG6pn995zsr2R1B5DMw2tugJmD7ADRba0V6T3bwHsa9H44MZdYyvTOfR75TcjvYLMB2BEG4r2ViO6eGmeJ3Oc1BnbaEiBbKtgKT89g-c00jrMZeHBfCpqeVzGLamLFgJ5IgVNXnY9IJfVpjYlFsZ2FQj6n2L2Te35M-BEUkwARzsGPyCwB3d77lGyDvv3HpfmYfz1X8-q1g__"
+                  src="https://vmagazine.com/wp-content/uploads/2021/05/Kendall-2.jpg"
                   alt=""
                 />
               </div>

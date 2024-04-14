@@ -4,15 +4,25 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useSelector } from "react-redux";
+import { RootState } from "../../redux/features/rootReducer";
+import Link from "next/link";
 
 const BestSeller = () => {
+  const clothingData = useSelector(
+    (state: RootState) => state.clothing.clothingData
+  );
+  const lastItems = clothingData.slice(-10);
+
   return (
     <>
       <div className="best-seller">
         <div className="container">
           <div className="top-btns">
             <button className="bs">Best Seller</button>
-            <button className="va">View all</button>
+            <Link href="/shop">
+              <button className="va">View all</button>
+            </Link>
           </div>
         </div>
         <Swiper
@@ -38,136 +48,18 @@ const BestSeller = () => {
           modules={[Pagination]}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <div className="swiper-box">
-              <img
-                src="https://www.magic-custom.com/15260-large_product/playboi-carti-t-shirt-cpfm-4-wlr-king-vamp.jpg"
-                alt=""
-              />
-              <div className="swiper-box-info">
-                <h6>Balmlabs</h6>
-                <h4>Cropped Puffy Jacket</h4>
-                <button>$40.00 USD</button>
+          {lastItems.map((item, i) => (
+            <SwiperSlide key={i}>
+              <div className="swiper-box">
+                <img src={item.imgURL} alt="" />
+                <div className="swiper-box-info">
+                  <h6>{item.brand}</h6>
+                  <h4>{item.name}</h4>
+                  <button>€{item.price} EU</button>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="swiper-box">
-              <img
-                src="https://shop.yopierre.com/cdn/shop/files/OPM__0007_PierreBourne_GrailsTour_Purp_Hoodie-copy-2.png?v=1687438557"
-                alt=""
-              />
-              <div className="swiper-box-info">
-                <h6>Balmlabs</h6>
-                <h4>Cropped Puffy Jacket</h4>
-                <button>$40.00 USD</button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="swiper-box">
-              <img
-                src="https://www.magic-custom.com/15260-large_product/playboi-carti-t-shirt-cpfm-4-wlr-king-vamp.jpg"
-                alt=""
-              />
-              <div className="swiper-box-info">
-                <h6>Balmlabs</h6>
-                <h4>Cropped Puffy Jacket</h4>
-                <button>$40.00 USD</button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="swiper-box">
-              <img
-                src="https://shop.yopierre.com/cdn/shop/files/OPM__0007_PierreBourne_GrailsTour_Purp_Hoodie-copy-2.png?v=1687438557"
-                alt=""
-              />
-              <div className="swiper-box-info">
-                <h6>Balmlabs</h6>
-                <h4>Cropped Puffy Jacket</h4>
-                <button>$40.00 USD</button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="swiper-box">
-              <img
-                src="https://www.magic-custom.com/15260-large_product/playboi-carti-t-shirt-cpfm-4-wlr-king-vamp.jpg"
-                alt=""
-              />
-              <div className="swiper-box-info">
-                <h6>Balmlabs</h6>
-                <h4>Cropped Puffy Jacket</h4>
-                <button>$40.00 USD</button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="swiper-box">
-              <img
-                src="https://shop.yopierre.com/cdn/shop/files/OPM__0007_PierreBourne_GrailsTour_Purp_Hoodie-copy-2.png?v=1687438557"
-                alt=""
-              />
-              <div className="swiper-box-info">
-                <h6>Balmlabs</h6>
-                <h4>Cropped Puffy Jacket</h4>
-                <button>$40.00 USD</button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="swiper-box">
-              <img
-                src="https://www.magic-custom.com/15260-large_product/playboi-carti-t-shirt-cpfm-4-wlr-king-vamp.jpg"
-                alt=""
-              />
-              <div className="swiper-box-info">
-                <h6>Balmlabs</h6>
-                <h4>Cropped Puffy Jacket</h4>
-                <button>$40.00 USD</button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="swiper-box">
-              <img
-                src="https://shop.yopierre.com/cdn/shop/files/OPM__0007_PierreBourne_GrailsTour_Purp_Hoodie-copy-2.png?v=1687438557"
-                alt=""
-              />
-              <div className="swiper-box-info">
-                <h6>Balmlabs</h6>
-                <h4>Cropped Puffy Jacket</h4>
-                <button>$40.00 USD</button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="swiper-box">
-              <img
-                src="https://www.magic-custom.com/15260-large_product/playboi-carti-t-shirt-cpfm-4-wlr-king-vamp.jpg"
-                alt=""
-              />
-              <div className="swiper-box-info">
-                <h6>Balmlabs</h6>
-                <h4>Cropped Puffy Jacket</h4>
-                <button>$40.00 USD</button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="swiper-box">
-              <img
-                src="https://shop.yopierre.com/cdn/shop/files/OPM__0007_PierreBourne_GrailsTour_Purp_Hoodie-copy-2.png?v=1687438557"
-                alt=""
-              />
-              <div className="swiper-box-info">
-                <h6>Balmlabs</h6>
-                <h4>Cropped Puffy Jacket</h4>
-                <button>$40.00 USD</button>
-              </div>
-            </div>
-          </SwiperSlide>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </>

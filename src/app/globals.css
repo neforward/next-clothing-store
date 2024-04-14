@@ -977,14 +977,6 @@ input::-webkit-inner-spin-button {
   width: 500px;
   height: 100%;
 }
-.swiper-button-prev {
-  position: absolute;
-  top: 0;
-}
-.swiper-button-next {
-  position: absolute;
-  top: 0;
-}
 
 .swiper.swiper-slides.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-watch-progress.swiper-backface-hidden.swiper-thumbs {
   display: block;
@@ -1541,5 +1533,55 @@ input::-webkit-inner-spin-button {
   color: var(--text, #181818);
   font-weight: 500;
 }
-@media screen and (max-width: 1195px) {
+
+span.pagination-item {
+  color: var(--tertiary, #939393);
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+span.pagination-item.active {
+  color: var(--text, #181818);
+}
+span.dots {
+  color: var(--tertiary, #939393);
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.flex-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 867px;
+}
+
+.prevBtn,
+.nextBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.prevBtn:hover {
+  transform: translateX(-5px); 
+}
+
+.nextBtn:hover {
+  transform: translateX(5px);
+}
+
+@media screen and (max-width: 867px) {
+  .flex-pagination {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .flex-pagination {
+    width: 300px;
+  }
 }

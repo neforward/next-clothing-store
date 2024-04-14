@@ -1508,6 +1508,104 @@ const clothingData = [
     imgURL6:
       "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144901LGRX/0ZXDNM144901LGRX-pdp-6.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
   },
+  {
+    id: 76,
+    price: "1.184",
+    name: "BAPE X Canada Goose Crofto Puffer",
+    type: "Jacket",
+    gender: "male",
+    brand: "Bape",
+    imgURL:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144902LGRX/0ZXDNM144902LGRX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL2:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144902LGRX/0ZXDNM144902LGRX-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL3:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144902LGRX/0ZXDNM144902LGRX-pdp-3.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL4:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144902LGRX/0ZXDNM144902LGRX-pdp-4.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL5:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144902LGRX/0ZXDNM144902LGRX-pdp-5.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL6:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXDNM144902LGRX/0ZXDNM144902LGRX-pdp-6.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+  },
+  {
+    id: 77,
+    price: "769",
+    name: "Classic down jacket",
+    type: "Jacket",
+    gender: "male",
+    brand: "Bape",
+    imgURL:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BBKDNJK7604MLBGX/BBKDNJK7604MLBGX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL2:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BBKDNJK7604MLBGX/BBKDNJK7604MLBGX-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL3:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BBKDNJK7604MLBGX/BBKDNJK7604MLBGX-pdp-3.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL4:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BBKDNJK7604MLBGX/BBKDNJK7604MLBGX-pdp-4.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL5:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BBKDNJK7604MLBGX/BBKDNJK7604MLBGX-pdp-5.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL6:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BBKDNJK7604MLBGX/BBKDNJK7604MLBGX-pdp-6.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+  },
+  {
+    id: 78,
+    price: "524",
+    name: "Indigo Shark Full Zip Hoodie",
+    type: "Jacket",
+    gender: "male",
+    brand: "Bape",
+    imgURL:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWW215003MNYX/0ZXSWW215003MNYX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL2:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWW215003MNYX/0ZXSWW215003MNYX-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL3:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWW215003MNYX/0ZXSWW215003MNYX-pdp-3.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL4:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWW215003MNYX/0ZXSWW215003MNYX-pdp-4.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL5:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXSWW215003MNYX/0ZXSWW215003MNYX-pdp-5.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+  },
+  {
+    id: 79,
+    price: "339",
+    name: "BAPE STA zip-up hoodie",
+    type: "Jacket",
+    gender: "male",
+    brand: "Bape",
+    imgURL:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BPYHJHJ3194XMGY2/BPYHJHJ3194XMGY2-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL2:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BPYHJHJ3194XMGY2/BPYHJHJ3194XMGY2-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL3:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BPYHJHJ3194XMGY2/BPYHJHJ3194XMGY2-pdp-3.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL4:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BPYHJHJ3194XMGY2/BPYHJHJ3194XMGY2-pdp-4.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL5:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BPYHJHJ3194XMGY2/BPYHJHJ3194XMGY2-pdp-5.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL6:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/BPYHJHJ3194XMGY2/BPYHJHJ3194XMGY2-pdp-6.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+  },
+  {
+    id: 80,
+    price: "442",
+    name: "Sherpa hoodie jacket",
+    type: "Jacket",
+    gender: "male",
+    brand: "Bape",
+    imgURL:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0PXJKW215001JBLX/0PXJKW215001JBLX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL2:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0PXJKW215001JBLX/0PXJKW215001JBLX-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL3:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0PXJKW215001JBLX/0PXJKW215001JBLX-pdp-3.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL4:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0PXJKW215001JBLX/0PXJKW215001JBLX-pdp-4.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL5:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0PXJKW215001JBLX/0PXJKW215001JBLX-pdp-5.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL6:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0PXJKW215001JBLX/0PXJKW215001JBLX-pdp-6.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+  },
 ];
 
 const initialState = {
