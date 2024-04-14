@@ -1258,17 +1258,21 @@ input::-webkit-inner-spin-button {
 @media screen and (max-width: 1260px) {
   .second-about-section .bg {
     max-width: 400px;
+    height: 340px;
   }
   .second-about-section .bg img {
     max-width: 400px;
+    height: 340px;
   }
 }
 @media screen and (max-width: 1022px) {
   .second-about-section .bg {
     max-width: 300px;
+    height: 280px;
   }
   .second-about-section .bg img {
     max-width: 300px;
+    height: 280px;
   }
 }
 

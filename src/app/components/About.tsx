@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const About = () => {
   return (
     <>
@@ -15,9 +17,11 @@ const About = () => {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <div className="about-section-btn">
-                <button>Shop now</button>
-              </div>
+              <Link href="/shop">
+                <div className="about-section-btn">
+                  <button>Shop now</button>
+                </div>
+              </Link>
             </div>
             <div className="second-about-section">
               <div className="gredient">
