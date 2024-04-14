@@ -8,6 +8,7 @@ const Header = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  
   return (
     <>
       <header className="header">
@@ -108,6 +109,19 @@ const Header = () => {
                 </svg>
               </div>
               <div className="bg-cart"></div>
+              <div className="dark-mode">
+                <svg
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m12 22c5.5228475 0 10-4.4771525 10-10s-4.4771525-10-10-10-10 4.4771525-10 10 4.4771525 10 10 10zm0-1.5v-17c4.6944204 0 8.5 3.80557963 8.5 8.5 0 4.6944204-3.8055796 8.5-8.5 8.5z"
+                    fill="#212121"
+                  />
+                </svg>
+              </div>
             </div>
             <div className="burger-menu">
               <div
@@ -122,32 +136,40 @@ const Header = () => {
                 <nav className={`nav-menu ${menuOpen ? "active" : ""}`}>
                   <div className="gap-rows">
                     <Link href="/shop">
-                      <span>Shop now</span>
+                      <span onClick={toggleMenu}>Shop now</span>
                     </Link>
                     <div className="row-items">
                       <Link href="">Woman</Link>
-                      <span>ITEMS</span>
+                      <span onClick={toggleMenu}>ITEMS</span>
                     </div>
                     <div className="row-items">
                       <Link href="">Man/Unisex</Link>
-                      <span>ITEMS</span>
+                      <span onClick={toggleMenu}>ITEMS</span>
                     </div>
                     <div className="row-items">
                       <Link href="">All</Link>
-                      <span>ITEMS</span>
+                      <span onClick={toggleMenu}>ITEMS</span>
                     </div>
                   </div>
                   <div className="nav-link">
-                    <Link href="/wear">How to Wear</Link>
+                    <Link href="/wear" onClick={toggleMenu}>
+                      How to Wear
+                    </Link>
                   </div>
                   <div className="nav-link">
-                    <Link href="/collab">Collaboration</Link>
+                    <Link href="/collab" onClick={toggleMenu}>
+                      Collaboration
+                    </Link>
                   </div>
                   <div className="nav-link">
-                    <Link href="/news">Meta News</Link>
+                    <Link href="/news" onClick={toggleMenu}>
+                      Meta News
+                    </Link>
                   </div>
                   <div className="nav-link">
-                    <Link href="/about">About</Link>
+                    <Link href="/about" onClick={toggleMenu}>
+                      About
+                    </Link>
                   </div>
                   <div className="nav-link">
                     <div className="social-links">

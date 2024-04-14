@@ -23,6 +23,7 @@ body {
   background-position: 50% 50%;
 }
 .header {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   left: 0;
