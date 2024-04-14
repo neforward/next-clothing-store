@@ -26,65 +26,47 @@ export default function Shop() {
             </div>
             <div className="shop-main">
               <div className="shop-brands">
-                <div className="brands-title">
-                  <h3>Shop by brands</h3>
-                </div>
                 <div className="brands-column">
+                  <div className="brands-title">
+                    <h3>Shop by brands</h3>
+                  </div>
                   <span>Rick Owens</span>
                   <span>OffWhite</span>
                   <span>Bape</span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
+                  <div className="brands-title">
+                    <h3>Shop by clothing</h3>
+                  </div>
+                  <span>Jacket</span>
+                  <span>Shoes</span>
                 </div>
               </div>
               <div className="shop-catalog">
-                {clothingData.map((item) => (
-                  <div className="shop-box" key={item.id}>
-                    <Link href={`/shop/${item.id}`} passHref>
-                      <img src={item.imgURL} alt={item.name} />
-                    </Link>
-                    <div className="shop-box-info">
-                      <h6>{item.brand}</h6>
-                      <h4>{item.name}</h4>
-                      <button>€{item.price} EU</button>
-                    </div>
-                  </div>
-                ))}
+                {clothingData.map(
+                  (item) =>
+                    item && (
+                      <div className="shop-box" key={item.id}>
+                        <Link href={`/shop/${item.id}`} passHref>
+                          <div className="image-container">
+                            <img
+                              src={item.imgURL}
+                              alt={item.name}
+                              className="normal-img"
+                            />
+                            <img
+                              src={item.imgURL2}
+                              alt={item.name}
+                              className="hover-img1"
+                            />
+                          </div>
+                        </Link>
+                        <div className="shop-box-info">
+                          <h6>{item.brand}</h6>
+                          <h4>{item.name}</h4>
+                          <button>€{item.price} EU</button>
+                        </div>
+                      </div>
+                    )
+                )}
               </div>
             </div>
           </div>

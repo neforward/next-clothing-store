@@ -1105,8 +1105,35 @@ input::-webkit-inner-spin-button {
   color: var(--secondary, #393939);
   font-size: 15px;
   font-weight: 400;
-  line-height: 169.023%; /* 25.353px */
+  line-height: 169.023%;
 }
+.image-container {
+  position: relative;
+  width: fit-content;
+}
+
+.hover-img1,
+.hover-img2,
+.hover-img3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.shop-box:hover .hover-img1,
+.shop-box:hover .hover-img2,
+.shop-box:hover .hover-img3 {
+  opacity: 1;
+}
+
+.normal-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 1360px) {
   .wear-first h2 {
     text-align: start;
@@ -1481,7 +1508,7 @@ input::-webkit-inner-spin-button {
   gap: 32px;
 }
 .bg-pics {
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }

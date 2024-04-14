@@ -17,8 +17,9 @@ export default function ShopItem() {
   );
   const normalizedId = Array.isArray(id) ? id[0] : id;
   const clothing = clothingData.find(
-    (item) => item.id === parseInt(normalizedId)
+    (item) => item && item.id === parseInt(normalizedId)
   );
+
   if (!clothing) {
     return <div>Clothing item not found</div>;
   }
@@ -40,7 +41,6 @@ export default function ShopItem() {
                   "--swiper-scrollbar-track-color": "#fff",
                 }}
                 spaceBetween={10}
-                navigation={true}
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode, Navigation, Thumbs]}
                 className="swiper-view"
@@ -78,6 +78,21 @@ export default function ShopItem() {
                 {clothing.imgURL7 && (
                   <SwiperSlide>
                     <img src={clothing.imgURL7} alt={clothing.name} />
+                  </SwiperSlide>
+                )}
+                {clothing.imgURL8 && (
+                  <SwiperSlide>
+                    <img src={clothing.imgURL8} alt={clothing.name} />
+                  </SwiperSlide>
+                )}
+                {clothing.imgURL9 && (
+                  <SwiperSlide>
+                    <img src={clothing.imgURL9} alt={clothing.name} />
+                  </SwiperSlide>
+                )}
+                {clothing.imgURL10 && (
+                  <SwiperSlide>
+                    <img src={clothing.imgURL10} alt={clothing.name} />
                   </SwiperSlide>
                 )}
               </Swiper>
@@ -127,6 +142,21 @@ export default function ShopItem() {
                       <img src={clothing.imgURL7} alt={clothing.name} />
                     </SwiperSlide>
                   )}
+                  {clothing.imgURL8 && (
+                    <SwiperSlide>
+                      <img src={clothing.imgURL8} alt={clothing.name} />
+                    </SwiperSlide>
+                  )}
+                  {clothing.imgURL9 && (
+                    <SwiperSlide>
+                      <img src={clothing.imgURL9} alt={clothing.name} />
+                    </SwiperSlide>
+                  )}
+                  {clothing.imgURL10 && (
+                    <SwiperSlide>
+                      <img src={clothing.imgURL10} alt={clothing.name} />
+                    </SwiperSlide>
+                  )}
                 </div>
               </Swiper>
             </div>
@@ -134,10 +164,10 @@ export default function ShopItem() {
               <div className="shop-detail-top">
                 <div className="detail-top">
                   <div className="st">
-                    <h6>Balmlabs</h6>
-                    <h3>Cropped Puffy Jacket</h3>
+                    <h6>{clothing.brand}</h6>
+                    <h3>{clothing.name}</h3>
                   </div>
-                  <button>$40.00 USD</button>
+                  <button>€{clothing.price} EU</button>
                 </div>
                 <div className="shop-flex">
                   <div className="shop-photo">
@@ -216,6 +246,7 @@ export default function ShopItem() {
                 </div>
                 <div className="shop-descriptions">
                   <p>
+                    {clothing.des}
                     BalmLabs is a Ghana-based Digital Fashion House that
                     specializes in digital-only media for fashion brands. Baboa
                     Tachie-Menson – the designer behind the BTM studios by
@@ -240,7 +271,7 @@ export default function ShopItem() {
                     plastic, and rubber.
                   </p>
                   <p>Color: bright orange.</p>
-                  <p>Material: digital polyester.</p>
+                  <p>Type: {clothing.type}</p>
                   <p>Digital clothes fit all sizes.</p>
                 </div>
               </div>
