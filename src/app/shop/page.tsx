@@ -21,6 +21,16 @@ export default function Shop() {
   const nextPage = () => setCurrentPage(currentPage + 1);
   const prevPage = () => setCurrentPage(currentPage - 1);
 
+  const [sortedClothing, setSortedClothing] = useState(clothingData);
+
+  const sortClothingByType = (type: string) => {
+    const sortedItems = clothingData.filter((item) => item.type === type);
+    setSortedClothing(sortedItems);
+  };
+
+  const resetSorting = () => {
+    setSortedClothing(clothingData);
+  };
   return (
     <>
       <div className="shop">
@@ -42,16 +52,29 @@ export default function Shop() {
               <div className="shop-brands">
                 <div className="brands-column">
                   <div className="brands-title">
-                    <h3>Shop by brands</h3>
-                  </div>
-                  <span>Rick Owens</span>
-                  <span>OffWhite</span>
-                  <span>Bape</span>
-                  <div className="brands-title">
                     <h3>Shop by clothing</h3>
                   </div>
-                  <span>Jacket</span>
-                  <span>Shoes</span>
+                  <span onClick={() => sortClothingByType("T-shirt")}>
+                    T-shirt
+                  </span>
+                  <span onClick={() => sortClothingByType("Shirt")}>Shirt</span>
+                  <span onClick={() => sortClothingByType("Sweater")}>
+                    Sweater
+                  </span>
+                  <span onClick={() => sortClothingByType("Hoodie")}>
+                    Hoodie
+                  </span>
+                  <span onClick={() => sortClothingByType("Jacket")}>
+                    Jacket
+                  </span>
+                  <span onClick={() => sortClothingByType("Coat")}>Coat</span>
+                  <span onClick={() => sortClothingByType("Dress")}>Dress</span>
+                  <span onClick={() => sortClothingByType("Skirt")}>Skirt</span>
+                  <span onClick={() => sortClothingByType("Shorts")}>
+                    Shorts
+                  </span>
+                  <span onClick={() => sortClothingByType("Pants")}>Pants</span>
+                  <span onClick={() => sortClothingByType("Shoes")}>Shoes</span>
                 </div>
               </div>
               <div className="shop-catalog">
@@ -124,7 +147,11 @@ export default function Shop() {
                               </span>
                             );
                           } else if (index === 1 && currentPage - 1 > 1) {
-                            return <span className="dots" key={index}>...</span>;
+                            return (
+                              <span className="dots" key={index}>
+                                ...
+                              </span>
+                            );
                           } else if (
                             index ===
                               Math.ceil(clothingData.length / itemsPerPage) -

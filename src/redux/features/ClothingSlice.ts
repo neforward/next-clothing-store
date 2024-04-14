@@ -72,7 +72,7 @@ const clothingData = [
     price: "2.505",
     name: "FW23 CYCLOPIC JKT IN NYLON",
     type: "Jacket",
-    gender: "male",
+    gender: "female",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/158157/large/MU02C1A04_M3855_22D_01%282%29.jpg?1697811974",
@@ -119,7 +119,7 @@ const clothingData = [
     id: 5,
     price: "1.970",
     name: "LIDO RUNWAY DONUT COWL IN DUST",
-    type: "Jacket",
+    type: "Dress",
     gender: "female",
     brand: "Rick Owens",
     imgURL:
@@ -139,7 +139,7 @@ const clothingData = [
     id: 6,
     price: "5.195",
     name: "LIDO RUNWAY JUMBO DBLE DONUT IN",
-    type: "Jacket",
+    type: "Dress",
     gender: "female",
     brand: "Rick Owens",
     imgURL:
@@ -277,8 +277,8 @@ const clothingData = [
     id: 12,
     price: "2.345",
     name: "LIDO RUNWAY HOODED BUBBLE LONG IN",
-    type: "COAT",
-    gender: "female",
+    type: "Jacket",
+    gender: "male",
     brand: "RICK OWENS",
     imgURL:
       "https://cdn.rickowens.eu/products/168957/large/DU01D1755_SKY_46_01.jpg?1709115243",
@@ -306,7 +306,7 @@ const clothingData = [
     price: "1.345",
     name: "LIDO BAUHAUS VEST IN GUN METAL",
     type: "COAT",
-    gender: "female",
+    gender: "male",
     brand: "RICK OWENS",
     imgURL:
       "https://cdn.rickowens.eu/products/166153/large/RU01D3763_LLPM_68_01.jpg?1702628757",
@@ -326,7 +326,7 @@ const clothingData = [
     price: "1.345",
     name: "LIDO BAUHAUS VEST IN GUN METAL",
     type: "COAT",
-    gender: "female",
+    gender: "male",
     brand: "RICK OWENS",
     imgURL:
       "https://cdn.rickowens.eu/products/161120/large/RU01D3761_SCT_09_01.jpg?1698683440",
@@ -351,8 +351,8 @@ const clothingData = [
     id: 15,
     price: "1.485",
     name: "LIDO OVERSIZED OUTERSHIRT IN",
-    type: "COAT",
-    gender: "female",
+    type: "Jacket",
+    gender: "male",
     brand: "RICK OWENS",
     imgURL:
       "https://cdn.rickowens.eu/products/161027/large/RU01D3728_SCT_03_01.jpg?1698682924",
@@ -397,7 +397,7 @@ const clothingData = [
     id: 17,
     price: "4.920",
     name: "LIDO RUNWAY HOODED LIDO TATLIN",
-    type: "Jacket",
+    type: "Coat",
     gender: "male",
     brand: "Rick Owens",
     imgURL:
@@ -425,7 +425,7 @@ const clothingData = [
     id: 18,
     price: "6.015",
     name: "LIDO FOGTATLIN COAT IN BLACK SILK",
-    type: "Jacket",
+    type: "Coat",
     gender: "male",
     brand: "Rick Owens",
     imgURL:
@@ -449,8 +449,8 @@ const clothingData = [
     id: 19,
     price: "1.520",
     name: "LIDO RUNWAY LIDO DRAPED GOWN IN",
-    type: "Jacket",
-    gender: "male",
+    type: "Dress",
+    gender: "female",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/168758/large/RO01D2588_BH_13_01.jpg?1707746239",
@@ -486,7 +486,7 @@ const clothingData = [
     price: "3.230",
     name: "FW23 RADIANCE COAT IN BLACK",
     type: "Jacket",
-    gender: "male",
+    gender: "female",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/158026/large/MU02C1C01_M3632_999_01.jpg?1697809680",
@@ -530,7 +530,7 @@ const clothingData = [
     price: "3.660",
     name: "LIDO RUNWAY HOODED BUBBLE LONG IN",
     type: "Jacket",
-    gender: "male",
+    gender: "female",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/168149/large/RO01D2952_SH_34_01.jpg?1706793665",
@@ -550,8 +550,8 @@ const clothingData = [
     price: "830",
     name: "LIDO RUNWAY DIRT BOLAN IN BLACK",
     type: "Pants",
-    gender: "",
-    brand: "",
+    gender: "female",
+    brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/167782/large/RO01D2384_SBF_09_01.jpg?1706112268",
     imgURL2:
@@ -571,7 +571,7 @@ const clothingData = [
     id: 25,
     price: "455",
     name: "LONG BOXERS IN BLACK",
-    type: "Boxers",
+    type: "Shorts",
     gender: "male",
     brand: "RICK OWENS",
     imgURL:
@@ -659,7 +659,7 @@ const clothingData = [
     id: 29,
     price: "1.195",
     name: "LIDO LIDO PANTS IN LIDO DEGRADE",
-    type: "Jacket",
+    type: "Pants",
     gender: "male",
     brand: "Rick Owens",
     imgURL:
@@ -681,7 +681,7 @@ const clothingData = [
     id: 30,
     price: "900",
     name: "LIDO RUNWAY HOODED LIDO TATLIN",
-    type: "Jacket",
+    type: "Shorts",
     gender: "male",
     brand: "Rick Owens",
     imgURL:
@@ -703,7 +703,7 @@ const clothingData = [
     id: 31,
     price: "475",
     name: "LIDO RUNWAY HOODED LIDO TATLIN",
-    type: "Jacket",
+    type: "Shorts",
     gender: "male",
     brand: "Rick Owens",
     imgURL:
@@ -725,7 +725,7 @@ const clothingData = [
     id: 32,
     price: "1.340",
     name: "LIDO BAUHAUS CARGO IN CARDINAL RED",
-    type: "Jacket",
+    type: "Pants",
     gender: "male",
     brand: "Rick Owens",
     imgURL:
@@ -747,7 +747,7 @@ const clothingData = [
     id: 33,
     price: "1.340",
     name: "LIDO BAUHAUS CARGO IN BLACK",
-    type: "Jacket",
+    type: "Pants",
     gender: "male",
     brand: "Rick Owens",
     imgURL:
@@ -767,7 +767,7 @@ const clothingData = [
     id: 34,
     price: "1.225",
     name: "LIDO BAUHAUS CARGO IN BLACK HEAVY",
-    type: "Jacket",
+    type: "Pants",
     gender: "male",
     brand: "Rick Owens",
     imgURL:
@@ -789,7 +789,7 @@ const clothingData = [
     id: 35,
     price: "1.225",
     name: "LIDO BAUHAUS CARGO IN HENNA HEAVY",
-    type: "Jacket",
+    type: "Pants",
     gender: "male",
     brand: "Rick Owens",
     imgURL:
@@ -811,8 +811,8 @@ const clothingData = [
     id: 36,
     price: "4.610",
     name: "LIDO RUNWAY DIRT LIDO SKIRT IN HENNA",
-    type: "Jacket",
-    gender: "male",
+    type: "SKIRT",
+    gender: "female",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/167754/large/RO01D2371_LSU_73_01.jpg?1706111362",
@@ -833,8 +833,8 @@ const clothingData = [
     id: 37,
     price: "4.610",
     name: "LIDO RUNWAY DIRT PILLAR SKIRT IN",
-    type: "Jacket",
-    gender: "male",
+    type: "SKIRT",
+    gender: "female",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/169251/large/RO01D2373_LSU_09_01.jpg?1710409304",
@@ -855,8 +855,8 @@ const clothingData = [
     id: 38,
     price: "1.210",
     name: "LIDO RUNWAY DIRT LIDO SKIRT IN BLACK",
-    type: "Jacket",
-    gender: "male",
+    type: "SKIRT",
+    gender: "female",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/167768/large/RO01D2373_SBB_09_01.jpg?1706112121",
@@ -877,8 +877,8 @@ const clothingData = [
     id: 39,
     price: "545",
     name: "LIDO EDFU SKIRT IN CARDINAL RED",
-    type: "Jacket",
-    gender: "male",
+    type: "SKIRT",
+    gender: "female",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/159842/large/RP01D2366_JA_03_01.jpg?1698663992",
@@ -897,8 +897,8 @@ const clothingData = [
     id: 40,
     price: "2.190",
     name: "CYCLOP IN BRONZE CALF FUR",
-    type: "ACCESSORIES",
-    gender: "male",
+    type: "ACCESSORY",
+    gender: "both",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/140232/large/HV0000105_LPML_84_01.jpg?1671206934",
@@ -913,8 +913,8 @@ const clothingData = [
     id: 41,
     price: "1.640",
     name: "CYCLOP IN BLACK LAMB LEATHER",
-    type: "Jacket",
-    gender: "male",
+    type: "ACCESSORY",
+    gender: "both",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/140180/large/HV0000105_LNB_09_01.jpg?1671192046",
@@ -931,8 +931,8 @@ const clothingData = [
     id: 42,
     price: "1.915",
     name: "CYCLOP IN CHALK WHITE CALF LEATHER",
-    type: "Jacket",
-    gender: "male",
+    type: "ACCESSORY",
+    gender: "both",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/140185/large/HV0000105_LPT_110_01.jpg?1671192096",
@@ -949,8 +949,8 @@ const clothingData = [
     id: 43,
     price: "1.725",
     name: "CYCLOP IN POWDER BLUE NUTRIA FUR",
-    type: "Jacket",
-    gender: "male",
+    type: "ACCESSORY",
+    gender: "both",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/140195/large/HV0000105_LU66_66_01.jpg?1671192176",
@@ -967,8 +967,8 @@ const clothingData = [
     id: 44,
     price: "3.790",
     name: "LIDO RUNWAY SPLINT KISS IN CARDINAL",
-    type: "Jacket",
-    gender: "male",
+    type: "Shoes",
+    gender: "female",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/168115/large/RO01D2836_LLPGR0_30_01.jpg?1706793355",
@@ -983,8 +983,8 @@ const clothingData = [
     id: 45,
     price: "3.790",
     name: "LIDO RUNWAY SPLINT KISS IN",
-    type: "Jacket",
-    gender: "male",
+    type: "Shoes",
+    gender: "female",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/168119/large/RO01D2836_LLPGR0_530_01.jpg?1706793386",
@@ -999,8 +999,8 @@ const clothingData = [
     id: 46,
     price: "475",
     name: "LIDO RUNWAY HOODED LIDO TATLIN",
-    type: "Jacket",
-    gender: "male",
+    type: "Shoes",
+    gender: "female",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/168123/large/RO01D2836_LLPGR0_90_01.jpg?1706793430",
@@ -1015,8 +1015,8 @@ const clothingData = [
     id: 47,
     price: "4.350",
     name: "LIDO RUNWAY SPLINT KISS IN",
-    type: "Jacket",
-    gender: "male",
+    type: "Shoes",
+    gender: "female",
     brand: "Rick Owens",
     imgURL:
       "https://cdn.rickowens.eu/products/168131/large/RO01D2837_LLPGR0_90_01.jpg?1706793495",
@@ -1096,7 +1096,7 @@ const clothingData = [
     price: "1.235",
     name: "LIDO RUNWAY SNEAKERS IN DUSTY",
     type: "Shoes",
-    gender: "male",
+    gender: "female",
     brand: "RICK OWENS",
     imgURL:
       "https://cdn.rickowens.eu/products/169687/large/RO01D2890_LHL_6311_01.jpg?1710517249",
@@ -1112,7 +1112,7 @@ const clothingData = [
     price: "1.175",
     name: "LIDO RUNWAY MEGA BUMPER SNEAKS IN",
     type: "Shoes",
-    gender: "male",
+    gender: "female",
     brand: "RICK OWENS",
     imgURL:
       "https://cdn.rickowens.eu/products/168135/large/RO01D2891_LHL_6311_01.jpg?1706793566",
@@ -1223,7 +1223,7 @@ const clothingData = [
     id: 60,
     price: "1.250",
     name: "Natlover Super Baggy Jeans",
-    type: "Jacket",
+    type: "Pants",
     gender: "male",
     brand: "Off-White",
     imgURL:
@@ -1240,7 +1240,7 @@ const clothingData = [
     id: 61,
     price: "1.995",
     name: "Cryst Windows Over Den Shirt",
-    type: "Jacket",
+    type: "Shirt",
     gender: "male",
     brand: "Off-White",
     imgURL:
@@ -1258,7 +1258,7 @@ const clothingData = [
     id: 62,
     price: "695",
     name: "Xray Cargo Swimshorts",
-    type: "Jacket",
+    type: "Shorts",
     gender: "male",
     brand: "Off-White",
     imgURL:
@@ -1276,8 +1276,8 @@ const clothingData = [
     id: 63,
     price: "765",
     name: "Bling Leaves S Arrow Crop Hoodie",
-    type: "Jacket",
-    gender: "male",
+    type: "Hoodie",
+    gender: "female",
     brand: "Off-White",
     imgURL:
       "https://cdn-images.farfetch-contents.com/off-white-bling-leaves-s-arrow-crop-hoodie_21255538_47464091_1000.jpg?c=3",
@@ -1294,7 +1294,7 @@ const clothingData = [
     id: 64,
     price: "1.050",
     name: "Football Over Hoodie",
-    type: "Jacket",
+    type: "Hoodie",
     gender: "male",
     brand: "Off-White",
     imgURL:
@@ -1312,7 +1312,7 @@ const clothingData = [
     id: 65,
     price: "1.090",
     name: "Racerback Long Sleeves Top",
-    type: "Jacket",
+    type: "T-shirt",
     gender: "female",
     brand: "Off-White",
     imgURL:
@@ -1383,7 +1383,7 @@ const clothingData = [
   {
     id: 69,
     price: "3.405",
-    name: "Vars World Leather Jackets",
+    name: "Vars World Leather Jacket",
     type: "Jacket",
     gender: "male",
     brand: "Off-White",
@@ -1422,7 +1422,7 @@ const clothingData = [
     id: 71,
     price: "524",
     name: "Abc Camo Shark Full Zip Hoodie",
-    type: "Jacket",
+    type: "Hoodie",
     gender: "male",
     brand: "Bape",
     imgURL:
@@ -1436,7 +1436,7 @@ const clothingData = [
     id: 72,
     price: "552",
     name: "Comic Art Shark Zip Hoodie",
-    type: "Jacket",
+    type: "Hoodie",
     gender: "male",
     brand: "Bape",
     imgURL:
@@ -1455,7 +1455,7 @@ const clothingData = [
   {
     id: 73,
     price: "666",
-    name: "Color Camo Double Shark Full Zip Hoodie",
+    name: "Double Shark Full Zip Hoodie",
     type: "Hoodie",
     gender: "male",
     brand: "Bape",
@@ -1491,7 +1491,7 @@ const clothingData = [
   {
     id: 75,
     price: "1.643",
-    name: "BAPE X Canada Goose Crofto Puffer",
+    name: "BAPE X Canada Goose Crofto",
     type: "Jacket",
     gender: "male",
     brand: "Bape",
@@ -1511,7 +1511,7 @@ const clothingData = [
   {
     id: 76,
     price: "1.184",
-    name: "BAPE X Canada Goose Crofto Puffer",
+    name: "BAPE X Canada Goose Crofto",
     type: "Jacket",
     gender: "male",
     brand: "Bape",
@@ -1552,7 +1552,7 @@ const clothingData = [
     id: 78,
     price: "524",
     name: "Indigo Shark Full Zip Hoodie",
-    type: "Jacket",
+    type: "Hoodie",
     gender: "male",
     brand: "Bape",
     imgURL:
@@ -1570,7 +1570,7 @@ const clothingData = [
     id: 79,
     price: "339",
     name: "BAPE STA zip-up hoodie",
-    type: "Jacket",
+    type: "Hoodie",
     gender: "male",
     brand: "Bape",
     imgURL:
@@ -1590,7 +1590,7 @@ const clothingData = [
     id: 80,
     price: "442",
     name: "Sherpa hoodie jacket",
-    type: "Jacket",
+    type: "Hoodie",
     gender: "male",
     brand: "Bape",
     imgURL:

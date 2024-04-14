@@ -32,7 +32,7 @@ export default function ShopItem() {
               <Swiper
                 style={{
                   // @ts-ignore
-                  "--swiper-navigation-color": "#fff",
+                  "--swiper-navigation-color": "#000",
                   "--swiper-pagination-color": "#fff",
                   "--swiper-pagination-bullet-color": "#fff",
                   "--swiper-pagination-bullet-active-color": "#fff",
@@ -41,6 +41,7 @@ export default function ShopItem() {
                   "--swiper-scrollbar-track-color": "#fff",
                 }}
                 spaceBetween={10}
+                navigation={true}
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode, Navigation, Thumbs]}
                 className="swiper-view"

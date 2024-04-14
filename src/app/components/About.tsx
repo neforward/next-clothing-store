@@ -9,13 +9,11 @@ const About = () => {
             <div className="first-about-section">
               <h3>About Verseser</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Rick Owens, the fashion icon, represents a unique blend of dark
+                glamour, avant-garde design, and unapologetic individualism.
+                Renowned for his boundary-pushing aesthetics and a penchant for
+                asymmetry and draping, Rick Owens has carved out a distinct
+                niche in the fashion world.
               </p>
               <Link href="/shop">
                 <div className="about-section-btn">
