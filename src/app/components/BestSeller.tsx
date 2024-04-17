@@ -12,7 +12,7 @@ const BestSeller = () => {
   const clothingData = useSelector(
     (state: RootState) => state.clothing.clothingData
   );
-  const lastItems = clothingData.slice(-10);
+  const lastItems = clothingData.slice(+10);
 
   return (
     <>

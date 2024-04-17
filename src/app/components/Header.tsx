@@ -18,7 +18,6 @@ const Header = () => {
               <div className="header-logo">
                 <Link href="/">
                   <svg
-                    height="-884"
                     viewBox="42.2 1113 2417.4 273.2"
                     width="140"
                     xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +33,6 @@ const Header = () => {
                 <Link href="/wear">How to Wear</Link>
                 <Link href="/collab">Collaboration</Link>
                 <Link href="/news">Meta News</Link>
-                <Link href="/about">About</Link>
               </nav>
             </div>
             <div className="second-header">
@@ -103,19 +101,6 @@ const Header = () => {
                 </div>
               </a>
               <div className="bg-cart"></div>
-              <div className="dark-mode">
-                <svg
-                  height="24"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m12 22c5.5228475 0 10-4.4771525 10-10s-4.4771525-10-10-10-10 4.4771525-10 10 4.4771525 10 10 10zm0-1.5v-17c4.6944204 0 8.5 3.80557963 8.5 8.5 0 4.6944204-3.8055796 8.5-8.5 8.5z"
-                    fill="#212121"
-                  />
-                </svg>
-              </div>
             </div>
             <div className="burger-menu">
               <div

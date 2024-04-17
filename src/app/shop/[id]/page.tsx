@@ -9,6 +9,7 @@ import { useParams } from "next/navigation";
 import { RootState } from "@/redux/features/rootReducer";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
+import SwiperCore from "@/app/components/SwiperCore";
 export default function ShopItem() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const { id } = useParams();
@@ -279,6 +280,7 @@ export default function ShopItem() {
             </div>
           </div>
         </div>
+        <SwiperCore />
       </div>
     </>
   );
