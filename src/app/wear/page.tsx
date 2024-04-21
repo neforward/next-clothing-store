@@ -82,39 +82,41 @@ export default function Wear() {
                   </li>
                 </ul>
               </div>
-              <div className="wear-pic-one">
-                <div className="circle">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="26"
-                    height="26"
-                    viewBox="0 0 26 26"
-                    fill="none"
-                  >
-                    <path
-                      d="M4.46875 14.2188L10.1562 19.9062L21.5312 7.71875"
-                      stroke="#4DA07D"
-                      strokeWidth="3.13393"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
+              <div className="wear-pics">
+                <div className="wear-pic-one">
+                  <div className="circle">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="26"
+                      height="26"
+                      viewBox="0 0 26 26"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.46875 14.2188L10.1562 19.9062L21.5312 7.71875"
+                        stroke="#4DA07D"
+                        strokeWidth="3.13393"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </div>
                 </div>
-              </div>
-              <div className="wear-pic-two">
-                <div className="circle">
-                  <svg
-                    width="34"
-                    height="34"
-                    viewBox="0 0 34 34"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.0948 21.7777C9.64657 22.226 9.62523 23.0264 10.1055 23.4853C10.5644 23.9656 11.3755 23.9442 11.8238 23.496L16.9999 18.3199L22.176 23.496C22.6349 23.9549 23.4247 23.9656 23.8836 23.4853C24.3639 23.0264 24.3532 22.226 23.8943 21.767L18.7181 16.5909L23.8943 11.4255C24.3532 10.9559 24.3639 10.1661 23.8836 9.7072C23.4247 9.22694 22.6349 9.23761 22.176 9.69652L16.9999 14.8727L11.8238 9.69652C11.3755 9.24828 10.5644 9.22694 10.1055 9.7072C9.62523 10.1661 9.64657 10.9665 10.0948 11.4148L15.2709 16.5909L10.0948 21.7777Z"
-                      fill="#E05E59"
-                    />
-                  </svg>
+                <div className="wear-pic-two">
+                  <div className="circle">
+                    <svg
+                      width="34"
+                      height="34"
+                      viewBox="0 0 34 34"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.0948 21.7777C9.64657 22.226 9.62523 23.0264 10.1055 23.4853C10.5644 23.9656 11.3755 23.9442 11.8238 23.496L16.9999 18.3199L22.176 23.496C22.6349 23.9549 23.4247 23.9656 23.8836 23.4853C24.3639 23.0264 24.3532 22.226 23.8943 21.767L18.7181 16.5909L23.8943 11.4255C24.3532 10.9559 24.3639 10.1661 23.8836 9.7072C23.4247 9.22694 22.6349 9.23761 22.176 9.69652L16.9999 14.8727L11.8238 9.69652C11.3755 9.24828 10.5644 9.22694 10.1055 9.7072C9.62523 10.1661 9.64657 10.9665 10.0948 11.4148L15.2709 16.5909L10.0948 21.7777Z"
+                        fill="#E05E59"
+                      />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>
@@ -160,39 +162,41 @@ export default function Wear() {
                   </li>
                 </ul>
               </div>
-              <div className="wear-pic-one">
-                <div className="circle">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="26"
-                    height="26"
-                    viewBox="0 0 26 26"
-                    fill="none"
-                  >
-                    <path
-                      d="M4.46875 14.2188L10.1562 19.9062L21.5312 7.71875"
-                      stroke="#4DA07D"
-                      stroke-width="3.13393"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+              <div className="wear-pics">
+                <div className="wear-pic-one">
+                  <div className="circle">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="26"
+                      height="26"
+                      viewBox="0 0 26 26"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.46875 14.2188L10.1562 19.9062L21.5312 7.71875"
+                        stroke="#4DA07D"
+                        strokeWidth="3.13393"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </div>
                 </div>
-              </div>
-              <div className="wear-pic-two">
-                <div className="circle">
-                  <svg
-                    width="34"
-                    height="34"
-                    viewBox="0 0 34 34"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.0948 21.7777C9.64657 22.226 9.62523 23.0264 10.1055 23.4853C10.5644 23.9656 11.3755 23.9442 11.8238 23.496L16.9999 18.3199L22.176 23.496C22.6349 23.9549 23.4247 23.9656 23.8836 23.4853C24.3639 23.0264 24.3532 22.226 23.8943 21.767L18.7181 16.5909L23.8943 11.4255C24.3532 10.9559 24.3639 10.1661 23.8836 9.7072C23.4247 9.22694 22.6349 9.23761 22.176 9.69652L16.9999 14.8727L11.8238 9.69652C11.3755 9.24828 10.5644 9.22694 10.1055 9.7072C9.62523 10.1661 9.64657 10.9665 10.0948 11.4148L15.2709 16.5909L10.0948 21.7777Z"
-                      fill="#E05E59"
-                    />
-                  </svg>
+                <div className="wear-pic-two">
+                  <div className="circle">
+                    <svg
+                      width="34"
+                      height="34"
+                      viewBox="0 0 34 34"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.0948 21.7777C9.64657 22.226 9.62523 23.0264 10.1055 23.4853C10.5644 23.9656 11.3755 23.9442 11.8238 23.496L16.9999 18.3199L22.176 23.496C22.6349 23.9549 23.4247 23.9656 23.8836 23.4853C24.3639 23.0264 24.3532 22.226 23.8943 21.767L18.7181 16.5909L23.8943 11.4255C24.3532 10.9559 24.3639 10.1661 23.8836 9.7072C23.4247 9.22694 22.6349 9.23761 22.176 9.69652L16.9999 14.8727L11.8238 9.69652C11.3755 9.24828 10.5644 9.22694 10.1055 9.7072C9.62523 10.1661 9.64657 10.9665 10.0948 11.4148L15.2709 16.5909L10.0948 21.7777Z"
+                        fill="#E05E59"
+                      />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>
@@ -267,39 +271,41 @@ export default function Wear() {
                   </li>
                 </ul>
               </div>
-              <div className="wear-pic-one">
-                <div className="circle">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="26"
-                    height="26"
-                    viewBox="0 0 26 26"
-                    fill="none"
-                  >
-                    <path
-                      d="M4.46875 14.2188L10.1562 19.9062L21.5312 7.71875"
-                      stroke="#4DA07D"
-                      stroke-width="3.13393"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+              <div className="wear-pics">
+                <div className="wear-pic-one">
+                  <div className="circle">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="26"
+                      height="26"
+                      viewBox="0 0 26 26"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.46875 14.2188L10.1562 19.9062L21.5312 7.71875"
+                        stroke="#4DA07D"
+                        strokeWidth="3.13393"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </div>
                 </div>
-              </div>
-              <div className="wear-pic-two">
-                <div className="circle">
-                  <svg
-                    width="34"
-                    height="34"
-                    viewBox="0 0 34 34"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.0948 21.7777C9.64657 22.226 9.62523 23.0264 10.1055 23.4853C10.5644 23.9656 11.3755 23.9442 11.8238 23.496L16.9999 18.3199L22.176 23.496C22.6349 23.9549 23.4247 23.9656 23.8836 23.4853C24.3639 23.0264 24.3532 22.226 23.8943 21.767L18.7181 16.5909L23.8943 11.4255C24.3532 10.9559 24.3639 10.1661 23.8836 9.7072C23.4247 9.22694 22.6349 9.23761 22.176 9.69652L16.9999 14.8727L11.8238 9.69652C11.3755 9.24828 10.5644 9.22694 10.1055 9.7072C9.62523 10.1661 9.64657 10.9665 10.0948 11.4148L15.2709 16.5909L10.0948 21.7777Z"
-                      fill="#E05E59"
-                    />
-                  </svg>
+                <div className="wear-pic-two">
+                  <div className="circle">
+                    <svg
+                      width="34"
+                      height="34"
+                      viewBox="0 0 34 34"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.0948 21.7777C9.64657 22.226 9.62523 23.0264 10.1055 23.4853C10.5644 23.9656 11.3755 23.9442 11.8238 23.496L16.9999 18.3199L22.176 23.496C22.6349 23.9549 23.4247 23.9656 23.8836 23.4853C24.3639 23.0264 24.3532 22.226 23.8943 21.767L18.7181 16.5909L23.8943 11.4255C24.3532 10.9559 24.3639 10.1661 23.8836 9.7072C23.4247 9.22694 22.6349 9.23761 22.176 9.69652L16.9999 14.8727L11.8238 9.69652C11.3755 9.24828 10.5644 9.22694 10.1055 9.7072C9.62523 10.1661 9.64657 10.9665 10.0948 11.4148L15.2709 16.5909L10.0948 21.7777Z"
+                        fill="#E05E59"
+                      />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>
@@ -374,39 +380,41 @@ export default function Wear() {
                   </li>
                 </ul>
               </div>
-              <div className="wear-pic-one">
-                <div className="circle">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="26"
-                    height="26"
-                    viewBox="0 0 26 26"
-                    fill="none"
-                  >
-                    <path
-                      d="M4.46875 14.2188L10.1562 19.9062L21.5312 7.71875"
-                      stroke="#4DA07D"
-                      stroke-width="3.13393"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+              <div className="wear-pics">
+                <div className="wear-pic-one">
+                  <div className="circle">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="26"
+                      height="26"
+                      viewBox="0 0 26 26"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.46875 14.2188L10.1562 19.9062L21.5312 7.71875"
+                        stroke="#4DA07D"
+                        strokeWidth="3.13393"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </div>
                 </div>
-              </div>
-              <div className="wear-pic-two">
-                <div className="circle">
-                  <svg
-                    width="34"
-                    height="34"
-                    viewBox="0 0 34 34"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.0948 21.7777C9.64657 22.226 9.62523 23.0264 10.1055 23.4853C10.5644 23.9656 11.3755 23.9442 11.8238 23.496L16.9999 18.3199L22.176 23.496C22.6349 23.9549 23.4247 23.9656 23.8836 23.4853C24.3639 23.0264 24.3532 22.226 23.8943 21.767L18.7181 16.5909L23.8943 11.4255C24.3532 10.9559 24.3639 10.1661 23.8836 9.7072C23.4247 9.22694 22.6349 9.23761 22.176 9.69652L16.9999 14.8727L11.8238 9.69652C11.3755 9.24828 10.5644 9.22694 10.1055 9.7072C9.62523 10.1661 9.64657 10.9665 10.0948 11.4148L15.2709 16.5909L10.0948 21.7777Z"
-                      fill="#E05E59"
-                    />
-                  </svg>
+                <div className="wear-pic-two">
+                  <div className="circle">
+                    <svg
+                      width="34"
+                      height="34"
+                      viewBox="0 0 34 34"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.0948 21.7777C9.64657 22.226 9.62523 23.0264 10.1055 23.4853C10.5644 23.9656 11.3755 23.9442 11.8238 23.496L16.9999 18.3199L22.176 23.496C22.6349 23.9549 23.4247 23.9656 23.8836 23.4853C24.3639 23.0264 24.3532 22.226 23.8943 21.767L18.7181 16.5909L23.8943 11.4255C24.3532 10.9559 24.3639 10.1661 23.8836 9.7072C23.4247 9.22694 22.6349 9.23761 22.176 9.69652L16.9999 14.8727L11.8238 9.69652C11.3755 9.24828 10.5644 9.22694 10.1055 9.7072C9.62523 10.1661 9.64657 10.9665 10.0948 11.4148L15.2709 16.5909L10.0948 21.7777Z"
+                        fill="#E05E59"
+                      />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>

@@ -98,69 +98,71 @@ export default function ShopItem() {
                   </SwiperSlide>
                 )}
               </Swiper>
-              <Swiper
-                // @ts-ignore
-                onSwiper={setThumbsSwiper}
-                spaceBetween={10}
-                slidesPerView={4}
-                freeMode={true}
-                watchSlidesProgress={true}
-                modules={[FreeMode, Navigation, Thumbs]}
-                className="swiper-slides"
-              >
-                <div className="swiper-column">
-                  {clothing.imgURL && (
-                    <SwiperSlide>
-                      <img src={clothing.imgURL} alt={clothing.name} />
-                    </SwiperSlide>
-                  )}
-                  {clothing.imgURL2 && (
-                    <SwiperSlide>
-                      <img src={clothing.imgURL2} alt={clothing.name} />
-                    </SwiperSlide>
-                  )}
-                  {clothing.imgURL3 && (
-                    <SwiperSlide>
-                      <img src={clothing.imgURL3} alt={clothing.name} />
-                    </SwiperSlide>
-                  )}
-                  {clothing.imgURL4 && (
-                    <SwiperSlide>
-                      <img src={clothing.imgURL4} alt={clothing.name} />
-                    </SwiperSlide>
-                  )}
-                  {clothing.imgURL5 && (
-                    <SwiperSlide>
-                      <img src={clothing.imgURL5} alt={clothing.name} />
-                    </SwiperSlide>
-                  )}
-                  {clothing.imgURL6 && (
-                    <SwiperSlide>
-                      <img src={clothing.imgURL6} alt={clothing.name} />
-                    </SwiperSlide>
-                  )}
-                  {clothing.imgURL7 && (
-                    <SwiperSlide>
-                      <img src={clothing.imgURL7} alt={clothing.name} />
-                    </SwiperSlide>
-                  )}
-                  {clothing.imgURL8 && (
-                    <SwiperSlide>
-                      <img src={clothing.imgURL8} alt={clothing.name} />
-                    </SwiperSlide>
-                  )}
-                  {clothing.imgURL9 && (
-                    <SwiperSlide>
-                      <img src={clothing.imgURL9} alt={clothing.name} />
-                    </SwiperSlide>
-                  )}
-                  {clothing.imgURL10 && (
-                    <SwiperSlide>
-                      <img src={clothing.imgURL10} alt={clothing.name} />
-                    </SwiperSlide>
-                  )}
-                </div>
-              </Swiper>
+              <div className="swiper-btns">
+                <Swiper
+                  // @ts-ignore
+                  onSwiper={setThumbsSwiper}
+                  spaceBetween={10}
+                  slidesPerView={4}
+                  freeMode={true}
+                  watchSlidesProgress={true}
+                  modules={[FreeMode, Navigation, Thumbs]}
+                  className="swiper-slides"
+                >
+                  <div className="swiper-column">
+                    {clothing.imgURL && (
+                      <SwiperSlide>
+                        <img src={clothing.imgURL} alt={clothing.name} />
+                      </SwiperSlide>
+                    )}
+                    {clothing.imgURL2 && (
+                      <SwiperSlide>
+                        <img src={clothing.imgURL2} alt={clothing.name} />
+                      </SwiperSlide>
+                    )}
+                    {clothing.imgURL3 && (
+                      <SwiperSlide>
+                        <img src={clothing.imgURL3} alt={clothing.name} />
+                      </SwiperSlide>
+                    )}
+                    {clothing.imgURL4 && (
+                      <SwiperSlide>
+                        <img src={clothing.imgURL4} alt={clothing.name} />
+                      </SwiperSlide>
+                    )}
+                    {clothing.imgURL5 && (
+                      <SwiperSlide>
+                        <img src={clothing.imgURL5} alt={clothing.name} />
+                      </SwiperSlide>
+                    )}
+                    {clothing.imgURL6 && (
+                      <SwiperSlide>
+                        <img src={clothing.imgURL6} alt={clothing.name} />
+                      </SwiperSlide>
+                    )}
+                    {clothing.imgURL7 && (
+                      <SwiperSlide>
+                        <img src={clothing.imgURL7} alt={clothing.name} />
+                      </SwiperSlide>
+                    )}
+                    {clothing.imgURL8 && (
+                      <SwiperSlide>
+                        <img src={clothing.imgURL8} alt={clothing.name} />
+                      </SwiperSlide>
+                    )}
+                    {clothing.imgURL9 && (
+                      <SwiperSlide>
+                        <img src={clothing.imgURL9} alt={clothing.name} />
+                      </SwiperSlide>
+                    )}
+                    {clothing.imgURL10 && (
+                      <SwiperSlide>
+                        <img src={clothing.imgURL10} alt={clothing.name} />
+                      </SwiperSlide>
+                    )}
+                  </div>
+                </Swiper>
+              </div>
             </div>
             <div className="shop-detail-text">
               <div className="shop-detail-top">
@@ -214,7 +216,7 @@ export default function ShopItem() {
                           />
                         </svg>
                       </button>
-                      <input type="number" value={1} />
+                      <input type="number" value={1} readOnly/>
                       <button>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

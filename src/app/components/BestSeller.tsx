@@ -51,7 +51,9 @@ const BestSeller = () => {
           {lastItems.map((item, i) => (
             <SwiperSlide key={i}>
               <div className="swiper-box">
-                <img src={item.imgURL} alt="" />
+                <Link href={`/shop/${item.id}`} passHref>
+                  <img src={item.imgURL} alt="" />
+                </Link>
                 <div className="swiper-box-info">
                   <h6>{item.brand}</h6>
                   <h4>{item.name}</h4>

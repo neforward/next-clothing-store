@@ -6,12 +6,13 @@ import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useSelector } from "react-redux";
 import { RootState } from "../../redux/features/rootReducer";
+import Link from "next/link";
 
 const BestSeller = () => {
   const clothingData = useSelector(
     (state: RootState) => state.clothing.clothingData
   );
-  const latestItems = clothingData.slice(0, 10);
+  const latestItems = clothingData.slice(24, 34);
   return (
     <>
       <div className="best-seller">
@@ -47,7 +48,9 @@ const BestSeller = () => {
           {latestItems.map((item, i) => (
             <SwiperSlide key={i}>
               <div className="swiper-box">
-                <img src={item.imgURL} alt="" />
+                <Link href={`/shop/${item.id}`} passHref>
+                  <img src={item.imgURL} alt="" />
+                </Link>
                 <div className="swiper-box-info">
                   <h6>{item.brand}</h6>
                   <h4>{item.name}</h4>

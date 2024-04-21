@@ -61,10 +61,16 @@ body img {
 .first-header nav {
   display: flex;
   gap: 14px;
+  min-width: 380px;
 }
 .first-header nav a {
-  color: #393939;
+  color: var(--secondary, #393939);
   font-size: 15px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+.first-header nav a:hover {
+  font-weight: 500;
 }
 .second-header {
   display: flex;
@@ -73,55 +79,58 @@ body img {
   gap: 16px;
 }
 .hero {
-  padding-top: 150px;
+  margin-top: 30px;
   background-repeat: no-repeat;
+  height: 1000px;
   background-size: 100%;
-  background-position: 20% 100%;
-  background-image: url("../assets/bg-hero.png");
+  background-image: url("https://viemagazine.com/wp-content/uploads/2020/03/vie-magazine-paris-fashion-week-2020-hero-min.jpg");
+  background-position: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: background-size 0.3s ease;
+  filter: grayscale(50%);
+  position: relative;
 }
-
-.hero-content {
-  display: flex;
-  justify-content: space-between;
+.hero img {
+  display: none;
 }
-.hero-content h2 {
-  color: #000;
-  font-size: 44px;
-  font-weight: 600;
-  letter-spacing: -1.32px;
-  max-width: 800px;
+.hero-text {
+  position: absolute;
+  top: 15%;
+  z-index: 10;
 }
-.hero-content.dark-mode h2 {
+.hero-text h2 {
   color: #fff;
+  font-size: 46px;
+  font-weight: 600;
+  letter-spacing: -1.38px;
 }
-.hero-content p {
-  color: #393939;
+.hero-text p {
+  color: #fff;
   font-size: 18px;
   font-weight: 400;
 }
-.hero-btn {
-  margin-top: 25px;
-  background: #393939;
-  padding: 13px 39px 13px 40px;
-  border-radius: 82px;
-  color: #fff;
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: -0.45px;
-  transition: 0.3s;
-}
-.hero-btn:hover {
-  background: transparent;
-  color: #393939;
-}
-.hero-img {
-  background-image: url(https://i.ibb.co/kh4TFKz/img.png);
-  background-repeat: no-repeat;
-  width: 770px;
-  height: 747px;
-}
-.hero-img img {
-  display: none;
+@media screen and (max-width: 1300px) {
+  .hero {
+    margin-top: 80px;
+    background-image: none;
+    height: 240px;
+  }
+  .hero img {
+    display: flex;
+  }
+  .hero-text h2 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.96px;
+  }
+
+  .hero-text p {
+    display: none;
+  }
+  .hero-text {
+    top: 10%;
+  }
 }
 .swiper {
   max-width: 100%;
@@ -856,7 +865,7 @@ span.swiper-pagination-bullet {
 
 .shop-detail {
   padding-top: 100px;
-  padding-bottom: 220px;
+  padding-bottom: 100px;
 }
 .detail-top {
   display: flex;
@@ -1272,6 +1281,13 @@ input::-webkit-inner-spin-button {
     border-radius: 4px;
   }
 }
+@media screen and (max-width: 400px) {
+  .shop-top {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   .about-section-content {
     justify-content: center;
@@ -1320,6 +1336,12 @@ input::-webkit-inner-spin-button {
   }
 }
 @media screen and (max-width: 770px) {
+  .shop-detail {
+    padding-top: 150px;
+  }
+  .swiper-btns {
+    margin-top: 20px;
+  }
   .first-about-section {
     padding-left: 15px;
   }
@@ -1374,8 +1396,10 @@ input::-webkit-inner-spin-button {
     padding-left: 15px;
     padding-bottom: 21px;
   }
-  .footer-icons {
-    gap: 10px;
+}
+@media screen and (max-width: 370px) {
+  .footer-res-div {
+    flex-direction: column;
   }
 }
 
@@ -1398,23 +1422,28 @@ input::-webkit-inner-spin-button {
     display: flex;
   }
 }
+.swiper-copy {
+  margin-top: 20px;
+}
 @media screen and (max-width: 1195px) {
   .swiper.swiper-slides.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-watch-progress.swiper-backface-hidden.swiper-thumbs {
     width: 350px;
   }
   .detail-content {
     flex-direction: column;
+    gap: 0;
   }
   .shop-flex {
     justify-content: center;
     flex-direction: column;
   }
   .detail-top {
-    text-align: center;
     justify-content: center;
     flex-direction: column;
     gap: 5px;
+    align-items: start;
   }
+
   .shop-descriptions {
     justify-content: center;
     align-items: center;
@@ -1599,7 +1628,11 @@ input::-webkit-inner-spin-button {
   font-weight: 500;
   max-width: 291px;
 }
-
+.wear-pics {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
 span.pagination-item {
   color: var(--tertiary, #939393);
   font-size: 18px;
@@ -1642,17 +1675,20 @@ span.dots {
   transform: translateX(5px);
 }
 @media screen and (max-width: 639px) {
+  .top-btns {
+    margin-bottom: 20px;
+  }
   .swiper-slide.swiper-slide-active {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
   }
-
-  .swiper-slide {
+  .swiper-slide.swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
   }
 }
 @media screen and (max-width: 867px) {
@@ -1663,5 +1699,24 @@ span.dots {
 @media screen and (max-width: 520px) {
   .flex-pagination {
     width: 250px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .wear-box {
+    flex-direction: column;
+  }
+  .wear-pics {
+    display: flex;
+  }
+  .wear-pic-one {
+    width: 165px;
+    height: 262px;
+  }
+  .wear-pic-two {
+    width: 165px;
+    height: 262px;
+  }
+  .circle {
+    display: none;
   }
 }

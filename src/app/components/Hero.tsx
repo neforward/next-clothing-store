@@ -1,21 +1,17 @@
-import Link from "next/link";
-
 const Hero = () => {
   return (
     <>
       <div className="hero">
         <div className="container">
-          <div className="hero-content">
-            <div className="hero-text">
-              <h2>Digital Fashion Studio </h2>
-              <p>We create digital clothing and connect it with real people</p>
-              <Link href="/shop">
-                <button className="hero-btn">Shop now</button>
-              </Link>
-            </div>
-            <div className="hero-img">
-              <img src="https://i.ibb.co/TPRCykC/img.png" alt="" />
-            </div>
+          <img
+            src="https://viemagazine.com/wp-content/uploads/2020/03/vie-magazine-paris-fashion-week-2020-hero-min.jpg"
+            alt=""
+          />
+          <div className="hero-text">
+            <h2>Meet Rick Owens in 2024</h2>
+            <p>
+              Experience avant-garde luxury and dark elegance with Rick Owens.
+            </p>
           </div>
         </div>
       </div>
