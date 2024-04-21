@@ -15,7 +15,7 @@ const BestSeller = () => {
   const latestItems = clothingData.slice(24, 34);
   return (
     <>
-      <div className="best-seller">
+      <div className="new-arrivals">
         <div className="container">
           <div className="top-btns">
             <button className="bs">NEW ARRIVALS</button>

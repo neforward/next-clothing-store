@@ -1345,23 +1345,19 @@ input::-webkit-inner-spin-button {
   .first-about-section {
     padding-left: 15px;
   }
-  .hero-img {
-    background-image: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 500px;
-  }
-  .hero-img img {
-    display: flex;
-    max-width: 770px;
-  }
+
   .hero {
-    background-position: 20% 90%;
+    display: none;
   }
-  .hero-text {
+  .best-seller .top-btns {
+    display: none;
+  }
+  .new-arrivals {
+    padding-top: 20px;
+  }
+  .wear-top .container {
     padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media screen and (max-width: 940px) {

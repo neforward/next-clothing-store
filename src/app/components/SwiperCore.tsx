@@ -8,6 +8,25 @@ import { useSelector } from "react-redux";
 import { RootState } from "../../redux/features/rootReducer";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+interface ClothingItem {
+  id: number;
+  price: string;
+  name: string;
+  type: string;
+  gender: string;
+  brand: string;
+  imgURL: string;
+  imgURL2: string;
+  imgURL3: string;
+  imgURL4: string;
+  imgURL5: string;
+  imgURL6?: string;
+  imgURL7?: string;
+  imgURL8?: string;
+  imgURL9?: string;
+  imgURL10?: string;
+  des?: string;
+}
 
 const Swiper = () => {
   const clothingData = useSelector(
@@ -25,7 +44,7 @@ const Swiper = () => {
     return shuffledArray;
   };
 
-  const [random, setRandom] = useState([]);
+  const [random, setRandom] = useState<ClothingItem[]>([]);
   useEffect(() => {
     const shuffledData = shuffleArray(clothingData);
     const randomSlice: any = shuffledData.slice(0, 16);
