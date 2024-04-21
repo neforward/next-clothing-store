@@ -6,7 +6,7 @@ const clothingData = [
   {
     id: 0,
     price: "1.880",
-    name: "LIDO RUNWAY FLIGHT JKT CROPPED IN",
+    name: "  FLIGHT JKT CROPPED IN",
     type: "JACKET",
     gender: "female",
     brand: "RICK OWENS",
@@ -29,7 +29,7 @@ const clothingData = [
     id: 1,
     price: "4.070",
     type: "JACKET",
-    name: "LIDO RUNWAY LIDO FLIGHT IN CARDINAL",
+    name: "FLIGHT IN CARDINAL",
     gender: "female",
     brand: "RICK OWENS",
     imgURL:
@@ -50,7 +50,7 @@ const clothingData = [
   {
     id: 2,
     price: "2.745",
-    name: "LIDO RUNWAY TEC MICRO BIKER IN",
+    name: "  TEC MICRO BIKER IN",
     type: "JACKET",
     gender: "female",
     brand: "RICK OWENS",
@@ -98,7 +98,7 @@ const clothingData = [
   {
     id: 4,
     price: "1.330",
-    name: "LIDO RUNWAY BATWING FLIGHT IN BLACK",
+    name: "  BATWING FLIGHT IN BLACK",
     type: "Jacket",
     gender: "male",
     brand: "Rick Owens",
@@ -118,7 +118,7 @@ const clothingData = [
   {
     id: 5,
     price: "1.970",
-    name: "LIDO RUNWAY DONUT COWL IN DUST",
+    name: "  DONUT COWL IN DUST",
     type: "Dress",
     gender: "female",
     brand: "Rick Owens",
@@ -138,7 +138,7 @@ const clothingData = [
   {
     id: 6,
     price: "5.195",
-    name: "LIDO RUNWAY JUMBO DBLE DONUT IN",
+    name: "  JUMBO DBLE DONUT IN",
     type: "Dress",
     gender: "female",
     brand: "Rick Owens",
@@ -186,7 +186,7 @@ const clothingData = [
   {
     id: 8,
     price: "4.830",
-    name: "LIDO JUMBO LUKE STOOGES IN BLACK",
+    name: "  JUMBO LUKE STOOGES IN BLACK",
     type: "Jacket",
     gender: "female",
     brand: "RICK OWENS",
@@ -210,7 +210,7 @@ const clothingData = [
   {
     id: 9,
     price: "4.765",
-    name: "LIDO JUMBO LUKE STOOGES IN BLACK",
+    name: "  JUMBO LUKE STOOGES IN BLACK",
     type: "Jacket",
     gender: "male",
     brand: "Rick Owens",
@@ -236,7 +236,7 @@ const clothingData = [
   {
     id: 10,
     price: "725",
-    name: "LILIES SS24 LIDO GARY JKT IN BLACK SOFT",
+    name: "LILIES SS24   GARY JKT IN BLACK SOFT",
     type: "Jacket",
     gender: "female",
     brand: "Rick Owens",
@@ -256,7 +256,7 @@ const clothingData = [
   {
     id: 11,
     price: "125",
-    name: "LILIES SS24 LIDO GARY JKT IN BLACK SOFT",
+    name: "LILIES SS24   GARY JKT IN BLACK SOFT",
     type: "Jacket",
     gender: "female",
     brand: "Rick Owens",
@@ -276,7 +276,7 @@ const clothingData = [
   {
     id: 12,
     price: "2.345",
-    name: "LIDO RUNWAY HOODED BUBBLE LONG IN",
+    name: "  HOODED BUBBLE LONG IN",
     type: "Jacket",
     gender: "male",
     brand: "RICK OWENS",
@@ -304,7 +304,7 @@ const clothingData = [
   {
     id: 13,
     price: "1.345",
-    name: "LIDO BAUHAUS VEST IN GUN METAL",
+    name: "  BAUHAUS VEST IN GUN METAL",
     type: "COAT",
     gender: "male",
     brand: "RICK OWENS",
@@ -324,7 +324,7 @@ const clothingData = [
   {
     id: 14,
     price: "1.345",
-    name: "LIDO BAUHAUS VEST IN GUN METAL",
+    name: "  BAUHAUS VEST IN GUN METAL",
     type: "COAT",
     gender: "male",
     brand: "RICK OWENS",
@@ -350,7 +350,7 @@ const clothingData = [
   {
     id: 15,
     price: "1.485",
-    name: "LIDO OVERSIZED OUTERSHIRT IN",
+    name: "  OVERSIZED OUTERSHIRT IN",
     type: "Jacket",
     gender: "male",
     brand: "RICK OWENS",
@@ -376,7 +376,7 @@ const clothingData = [
   {
     id: 16,
     price: "2.345",
-    name: "LIDO RUNWAY HOODED BUBBLE LONG IN",
+    name: "  HOODED BUBBLE LONG IN",
     type: "COAT",
     gender: "female",
     brand: "RICK OWENS",
@@ -396,7 +396,7 @@ const clothingData = [
   {
     id: 17,
     price: "4.920",
-    name: "LIDO RUNWAY HOODED LIDO TATLIN",
+    name: "  HOODED   TATLIN",
     type: "Coat",
     gender: "male",
     brand: "Rick Owens",
@@ -424,7 +424,7 @@ const clothingData = [
   {
     id: 18,
     price: "6.015",
-    name: "LIDO FOGTATLIN COAT IN BLACK SILK",
+    name: "  FOGTATLIN COAT IN BLACK SILK",
     type: "Coat",
     gender: "male",
     brand: "Rick Owens",
@@ -448,7 +448,7 @@ const clothingData = [
   {
     id: 19,
     price: "1.520",
-    name: "LIDO RUNWAY LIDO DRAPED GOWN IN",
+    name: "    DRAPED GOWN IN",
     type: "Dress",
     gender: "female",
     brand: "Rick Owens",
@@ -466,7 +466,7 @@ const clothingData = [
   {
     id: 20,
     price: "1.815",
-    name: "LIDO SPIDER ZIGGY JUMPSUIT IN BLACK",
+    name: "  SPIDER ZIGGY JUMPSUIT IN BLACK",
     type: "Jacket",
     gender: "male",
     brand: "Rick Owens",
@@ -528,7 +528,7 @@ const clothingData = [
   {
     id: 23,
     price: "3.660",
-    name: "LIDO RUNWAY HOODED BUBBLE LONG IN",
+    name: "  HOODED BUBBLE LONG IN",
     type: "Jacket",
     gender: "female",
     brand: "Rick Owens",
@@ -548,7 +548,7 @@ const clothingData = [
   {
     id: 24,
     price: "830",
-    name: "LIDO RUNWAY DIRT BOLAN IN BLACK",
+    name: "  DIRT BOLAN IN BLACK",
     type: "Pants",
     gender: "female",
     brand: "Rick Owens",
@@ -592,7 +592,7 @@ const clothingData = [
   {
     id: 26,
     price: "1.090",
-    name: "DRKSHDW LIDO BIAS BOOTCUT IN SKY",
+    name: "DRKSHDW   BIAS BOOTCUT IN SKY",
     type: "Pants",
     gender: "male",
     brand: "RICK OWENS",
@@ -614,7 +614,7 @@ const clothingData = [
   {
     id: 27,
     price: "1.715",
-    name: "DRKSHDW LIDO BIAS BOOTCUT 13OZ SKY",
+    name: "DRKSHDW   BIAS BOOTCUT 13OZ SKY",
     type: "Pants",
     gender: "male",
     brand: "RICK OWENS",
@@ -636,7 +636,7 @@ const clothingData = [
   {
     id: 28,
     price: "1.715",
-    name: "LIDO DOUBLE CARGO JUMBO BELAS IN",
+    name: "  DOUBLE CARGO JUMBO BELAS IN",
     type: "Pants",
     gender: "male",
     brand: "RICK OWENS",
@@ -658,7 +658,7 @@ const clothingData = [
   {
     id: 29,
     price: "1.195",
-    name: "LIDO LIDO PANTS IN LIDO DEGRADE",
+    name: "    PANTS IN   DEGRADE",
     type: "Pants",
     gender: "male",
     brand: "Rick Owens",
@@ -680,7 +680,7 @@ const clothingData = [
   {
     id: 30,
     price: "900",
-    name: "LIDO RUNWAY HOODED LIDO TATLIN",
+    name: "  HOODED   TATLIN",
     type: "Shorts",
     gender: "male",
     brand: "Rick Owens",
@@ -702,7 +702,7 @@ const clothingData = [
   {
     id: 31,
     price: "475",
-    name: "LIDO RUNWAY HOODED LIDO TATLIN",
+    name: "  HOODED   TATLIN",
     type: "Shorts",
     gender: "male",
     brand: "Rick Owens",
@@ -724,7 +724,7 @@ const clothingData = [
   {
     id: 32,
     price: "1.340",
-    name: "LIDO BAUHAUS CARGO IN CARDINAL RED",
+    name: "  BAUHAUS CARGO IN CARDINAL RED",
     type: "Pants",
     gender: "male",
     brand: "Rick Owens",
@@ -746,7 +746,7 @@ const clothingData = [
   {
     id: 33,
     price: "1.340",
-    name: "LIDO BAUHAUS CARGO IN BLACK",
+    name: "  BAUHAUS CARGO IN BLACK",
     type: "Pants",
     gender: "male",
     brand: "Rick Owens",
@@ -766,7 +766,7 @@ const clothingData = [
   {
     id: 34,
     price: "1.225",
-    name: "LIDO BAUHAUS CARGO IN BLACK HEAVY",
+    name: "  BAUHAUS CARGO IN BLACK HEAVY",
     type: "Pants",
     gender: "male",
     brand: "Rick Owens",
@@ -788,7 +788,7 @@ const clothingData = [
   {
     id: 35,
     price: "1.225",
-    name: "LIDO BAUHAUS CARGO IN HENNA HEAVY",
+    name: "  BAUHAUS CARGO IN HENNA HEAVY",
     type: "Pants",
     gender: "male",
     brand: "Rick Owens",
@@ -810,7 +810,7 @@ const clothingData = [
   {
     id: 36,
     price: "4.610",
-    name: "LIDO RUNWAY DIRT LIDO SKIRT IN HENNA",
+    name: "  DIRT   SKIRT IN HENNA",
     type: "SKIRT",
     gender: "female",
     brand: "Rick Owens",
@@ -832,7 +832,7 @@ const clothingData = [
   {
     id: 37,
     price: "4.610",
-    name: "LIDO RUNWAY DIRT PILLAR SKIRT IN",
+    name: "  DIRT PILLAR SKIRT IN",
     type: "SKIRT",
     gender: "female",
     brand: "Rick Owens",
@@ -854,7 +854,7 @@ const clothingData = [
   {
     id: 38,
     price: "1.210",
-    name: "LIDO RUNWAY DIRT LIDO SKIRT IN BLACK",
+    name: "  DIRT   SKIRT IN BLACK",
     type: "SKIRT",
     gender: "female",
     brand: "Rick Owens",
@@ -876,7 +876,7 @@ const clothingData = [
   {
     id: 39,
     price: "545",
-    name: "LIDO EDFU SKIRT IN CARDINAL RED",
+    name: "  EDFU SKIRT IN CARDINAL RED",
     type: "SKIRT",
     gender: "female",
     brand: "Rick Owens",
@@ -966,7 +966,7 @@ const clothingData = [
   {
     id: 44,
     price: "3.790",
-    name: "LIDO RUNWAY SPLINT KISS IN CARDINAL",
+    name: "  SPLINT KISS IN CARDINAL",
     type: "Shoes",
     gender: "female",
     brand: "Rick Owens",
@@ -982,7 +982,7 @@ const clothingData = [
   {
     id: 45,
     price: "3.790",
-    name: "LIDO RUNWAY SPLINT KISS IN",
+    name: "  SPLINT KISS IN",
     type: "Shoes",
     gender: "female",
     brand: "Rick Owens",
@@ -998,7 +998,7 @@ const clothingData = [
   {
     id: 46,
     price: "475",
-    name: "LIDO RUNWAY HOODED LIDO TATLIN",
+    name: "  HOODED   TATLIN",
     type: "Shoes",
     gender: "female",
     brand: "Rick Owens",
@@ -1014,7 +1014,7 @@ const clothingData = [
   {
     id: 47,
     price: "4.350",
-    name: "LIDO RUNWAY SPLINT KISS IN",
+    name: "  SPLINT KISS IN",
     type: "Shoes",
     gender: "female",
     brand: "Rick Owens",
@@ -1030,7 +1030,7 @@ const clothingData = [
   {
     id: 48,
     price: "1.220",
-    name: "LIDO RUNWAY MEGA BUMPER SNEAKS IN",
+    name: "  MEGA BUMPER SNEAKS IN",
     type: "Shoes",
     gender: "male",
     brand: "RICK OWENS",
@@ -1046,7 +1046,7 @@ const clothingData = [
   {
     id: 49,
     price: "1.000",
-    name: "LIDO RUNWAY MEGA BUMPER SNEAKS IN",
+    name: "  MEGA BUMPER SNEAKS IN",
     type: "Shoes",
     gender: "male",
     brand: "RICK OWENS",
@@ -1062,7 +1062,7 @@ const clothingData = [
   {
     id: 50,
     price: "710",
-    name: "LIDO SNEAKS IN BLACK/MILK/MILK COTTON",
+    name: "  SNEAKS IN BLACK/MILK/MILK COTTON",
     type: "Shoes",
     gender: "male",
     brand: "RICK OWENS",
@@ -1078,7 +1078,7 @@ const clothingData = [
   {
     id: 51,
     price: "570",
-    name: "LIDO LOW SNEAKS IN BLACK/MILK/MILK",
+    name: "  LOW SNEAKS IN BLACK/MILK/MILK",
     type: "Shoes",
     gender: "male",
     brand: "RICK OWENS",
@@ -1094,7 +1094,7 @@ const clothingData = [
   {
     id: 52,
     price: "1.235",
-    name: "LIDO RUNWAY SNEAKERS IN DUSTY",
+    name: "  SNEAKERS IN DUSTY",
     type: "Shoes",
     gender: "female",
     brand: "RICK OWENS",
@@ -1110,7 +1110,7 @@ const clothingData = [
   {
     id: 53,
     price: "1.175",
-    name: "LIDO RUNWAY MEGA BUMPER SNEAKS IN",
+    name: "  MEGA BUMPER SNEAKS IN",
     type: "Shoes",
     gender: "female",
     brand: "RICK OWENS",
@@ -1126,7 +1126,7 @@ const clothingData = [
   {
     id: 54,
     price: "725",
-    name: "LIDO RUNWAY MEGA BUMPER SNEAKS IN",
+    name: "  MEGA BUMPER SNEAKS IN",
     type: "Shoes",
     gender: "male",
     brand: "RICK OWENS",
@@ -1142,7 +1142,7 @@ const clothingData = [
   {
     id: 55,
     price: "760",
-    name: "LIDO BOOT SNEAKS IN BLACK/MILK/MILK",
+    name: "  BOOT SNEAKS IN BLACK/MILK/MILK",
     type: "Shoes",
     gender: "male",
     brand: "RICK OWENS",
@@ -1158,7 +1158,7 @@ const clothingData = [
   {
     id: 56,
     price: "780",
-    name: "LIDO DOUBLE BUMPER SNEAKS IN",
+    name: "  DOUBLE BUMPER SNEAKS IN",
     type: "Shoes",
     gender: "male",
     brand: "RICK OWENS",
@@ -1174,7 +1174,7 @@ const clothingData = [
   {
     id: 57,
     price: "670",
-    name: "LIDO DOUBLE BUMPER SNEAKS IN",
+    name: "  DOUBLE BUMPER SNEAKS IN",
     type: "Shoes",
     gender: "male",
     brand: "RICK OWENS",
@@ -1190,7 +1190,7 @@ const clothingData = [
   {
     id: 58,
     price: "795",
-    name: "LIDO ABSTRACT SNEAK IN BLACK/MILK/MILK",
+    name: "  ABSTRACT SNEAK IN BLACK/MILK/MILK",
     type: "Shoes",
     gender: "male",
     brand: "RICK OWENS",
@@ -1206,7 +1206,7 @@ const clothingData = [
   {
     id: 59,
     price: "675",
-    name: "LIDO ABSTRACT LOW SNEAK IN",
+    name: "  ABSTRACT LOW SNEAK IN",
     type: "Shoes",
     gender: "male",
     brand: "RICK OWENS",

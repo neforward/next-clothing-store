@@ -114,34 +114,34 @@ const Header = () => {
               <div className="burger-nav">
                 <nav className={`nav-menu ${menuOpen ? "active" : ""}`}>
                   <div className="gap-rows">
-                    <div className="row-items" onClick={toggleMenu}>
-                      <Link href="">Woman</Link>
-                      <span>ITEMS</span>
-                    </div>
-                    <div className="row-items" onClick={toggleMenu}>
-                      <Link href="">Man/Unisex</Link>
-                      <span>ITEMS</span>
-                    </div>
-                    <div className="row-items" onClick={toggleMenu}>
-                      <Link href="/shop">All</Link>
-                      <span>ITEMS</span>
-                    </div>
-                  </div>
-                  <div className="nav-link">
-                    <Link href="/wear" onClick={toggleMenu}>
-                      How to Wear
+                    <Link href="">
+                      <div className="row-items" onClick={toggleMenu}>
+                        Woman
+                        <span>ITEMS</span>
+                      </div>
+                    </Link>
+                    <Link href="">
+                      <div className="row-items" onClick={toggleMenu}>
+                        Man/Unisex
+                        <span>ITEMS</span>
+                      </div>
+                    </Link>
+                    <Link href="/shop">
+                      <div className="row-items" onClick={toggleMenu}>
+                        All
+                        <span>ITEMS</span>
+                      </div>
                     </Link>
                   </div>
-                  <div className="nav-link">
-                    <Link href="/collab" onClick={toggleMenu}>
-                      Collaboration
-                    </Link>
-                  </div>
-                  <div className="nav-link">
-                    <Link href="/news" onClick={toggleMenu}>
-                      Meta News
-                    </Link>
-                  </div>
+                  <Link href="/wear" onClick={toggleMenu}>
+                    <div className="nav-link">How to Wear</div>
+                  </Link>
+                  <Link href="/collab" onClick={toggleMenu}>
+                    <div className="nav-link">Collaboration</div>
+                  </Link>
+                  <Link href="/news" onClick={toggleMenu}>
+                    <div className="nav-link">Meta News</div>
+                  </Link>
                   <div className="nav-link">
                     <div className="social-links">
                       <div className="ig-icon">
