@@ -32,7 +32,200 @@ const Swiper = () => {
   const clothingData = useSelector(
     (state: RootState) => state.clothing.clothingData
   );
-  const shuffleArray = (array: ({ id: number; price: string; name: string; type: string; gender: string; brand: string; imgURL: string; imgURL2: string; imgURL3: string; imgURL4: string; imgURL5: string; imgURL6: string; imgURL7: string; imgURL8?: undefined; imgURL9?: undefined; imgURL10?: undefined; des?: undefined; } | { id: number; price: string; name: string; type: string; gender: string; brand: string; imgURL: string; imgURL2: string; imgURL3: string; imgURL4: string; imgURL5: string; imgURL6: string; imgURL7?: undefined; imgURL8?: undefined; imgURL9?: undefined; imgURL10?: undefined; des?: undefined; } | { id: number; price: string; name: string; type: string; gender: string; brand: string; imgURL: string; imgURL2: string; imgURL3: string; imgURL4: string; imgURL5: string; imgURL6: string; imgURL7: string; imgURL8: string; imgURL9: string; imgURL10: string; des?: undefined; } | { id: number; price: string; name: string; type: string; gender: string; brand: string; imgURL: string; imgURL2: string; imgURL3: string; imgURL4: string; imgURL5: string; imgURL6: string; imgURL7: string; imgURL8: string; imgURL9?: undefined; imgURL10?: undefined; des?: undefined; } | { id: number; price: string; name: string; type: string; gender: string; brand: string; imgURL: string; imgURL2: string; imgURL3: string; imgURL4: string; imgURL5: string; imgURL6: string; imgURL7: string; imgURL8: string; imgURL9: string; imgURL10?: undefined; des?: undefined; } | { id: number; price: string; name: string; type: string; gender: string; brand: string; imgURL: string; imgURL2: string; imgURL3: string; imgURL4: string; imgURL5: string; imgURL6?: undefined; imgURL7?: undefined; imgURL8?: undefined; imgURL9?: undefined; imgURL10?: undefined; des?: undefined; } | { id: number; price: string; name: string; type: string; gender: string; brand: string; imgURL: string; imgURL2: string; imgURL3: string; imgURL4: string; imgURL5?: undefined; imgURL6?: undefined; imgURL7?: undefined; imgURL8?: undefined; imgURL9?: undefined; imgURL10?: undefined; des?: undefined; } | { id: number; price: string; name: string; type: string; gender: string; brand: string; imgURL: string; imgURL2: string; imgURL3: string; imgURL4: string; des: string; imgURL5?: undefined; imgURL6?: undefined; imgURL7?: undefined; imgURL8?: undefined; imgURL9?: undefined; imgURL10?: undefined; } | { id: number; price: string; name: string; type: string; gender: string; brand: string; imgURL: string; imgURL2: string; imgURL3: string; imgURL4: string; imgURL5: string; des: string; imgURL6?: undefined; imgURL7?: undefined; imgURL8?: undefined; imgURL9?: undefined; imgURL10?: undefined; } | { id: number; price: string; name: string; type: string; gender: string; brand: string; imgURL: string; imgURL2: string; imgURL3: string; imgURL4?: undefined; imgURL5?: undefined; imgURL6?: undefined; imgURL7?: undefined; imgURL8?: undefined; imgURL9?: undefined; imgURL10?: undefined; des?: undefined; })[]) => {
+  const shuffleArray = (
+    array: (
+      | {
+          id: number;
+          price: string;
+          name: string;
+          type: string;
+          gender: string;
+          brand: string;
+          imgURL: string;
+          imgURL2: string;
+          imgURL3: string;
+          imgURL4: string;
+          imgURL5: string;
+          imgURL6: string;
+          imgURL7: string;
+          imgURL8?: undefined;
+          imgURL9?: undefined;
+          imgURL10?: undefined;
+          des?: undefined;
+        }
+      | {
+          id: number;
+          price: string;
+          name: string;
+          type: string;
+          gender: string;
+          brand: string;
+          imgURL: string;
+          imgURL2: string;
+          imgURL3: string;
+          imgURL4: string;
+          imgURL5: string;
+          imgURL6: string;
+          imgURL7?: undefined;
+          imgURL8?: undefined;
+          imgURL9?: undefined;
+          imgURL10?: undefined;
+          des?: undefined;
+        }
+      | {
+          id: number;
+          price: string;
+          name: string;
+          type: string;
+          gender: string;
+          brand: string;
+          imgURL: string;
+          imgURL2: string;
+          imgURL3: string;
+          imgURL4: string;
+          imgURL5: string;
+          imgURL6: string;
+          imgURL7: string;
+          imgURL8: string;
+          imgURL9: string;
+          imgURL10: string;
+          des?: undefined;
+        }
+      | {
+          id: number;
+          price: string;
+          name: string;
+          type: string;
+          gender: string;
+          brand: string;
+          imgURL: string;
+          imgURL2: string;
+          imgURL3: string;
+          imgURL4: string;
+          imgURL5: string;
+          imgURL6: string;
+          imgURL7: string;
+          imgURL8: string;
+          imgURL9?: undefined;
+          imgURL10?: undefined;
+          des?: undefined;
+        }
+      | {
+          id: number;
+          price: string;
+          name: string;
+          type: string;
+          gender: string;
+          brand: string;
+          imgURL: string;
+          imgURL2: string;
+          imgURL3: string;
+          imgURL4: string;
+          imgURL5: string;
+          imgURL6: string;
+          imgURL7: string;
+          imgURL8: string;
+          imgURL9: string;
+          imgURL10?: undefined;
+          des?: undefined;
+        }
+      | {
+          id: number;
+          price: string;
+          name: string;
+          type: string;
+          gender: string;
+          brand: string;
+          imgURL: string;
+          imgURL2: string;
+          imgURL3: string;
+          imgURL4: string;
+          imgURL5: string;
+          imgURL6?: undefined;
+          imgURL7?: undefined;
+          imgURL8?: undefined;
+          imgURL9?: undefined;
+          imgURL10?: undefined;
+          des?: undefined;
+        }
+      | {
+          id: number;
+          price: string;
+          name: string;
+          type: string;
+          gender: string;
+          brand: string;
+          imgURL: string;
+          imgURL2: string;
+          imgURL3: string;
+          imgURL4: string;
+          imgURL5?: undefined;
+          imgURL6?: undefined;
+          imgURL7?: undefined;
+          imgURL8?: undefined;
+          imgURL9?: undefined;
+          imgURL10?: undefined;
+          des?: undefined;
+        }
+      | {
+          id: number;
+          price: string;
+          name: string;
+          type: string;
+          gender: string;
+          brand: string;
+          imgURL: string;
+          imgURL2: string;
+          imgURL3: string;
+          imgURL4: string;
+          des: string;
+          imgURL5?: undefined;
+          imgURL6?: undefined;
+          imgURL7?: undefined;
+          imgURL8?: undefined;
+          imgURL9?: undefined;
+          imgURL10?: undefined;
+        }
+      | {
+          id: number;
+          price: string;
+          name: string;
+          type: string;
+          gender: string;
+          brand: string;
+          imgURL: string;
+          imgURL2: string;
+          imgURL3: string;
+          imgURL4: string;
+          imgURL5: string;
+          des: string;
+          imgURL6?: undefined;
+          imgURL7?: undefined;
+          imgURL8?: undefined;
+          imgURL9?: undefined;
+          imgURL10?: undefined;
+        }
+      | {
+          id: number;
+          price: string;
+          name: string;
+          type: string;
+          gender: string;
+          brand: string;
+          imgURL: string;
+          imgURL2: string;
+          imgURL3: string;
+          imgURL4?: undefined;
+          imgURL5?: undefined;
+          imgURL6?: undefined;
+          imgURL7?: undefined;
+          imgURL8?: undefined;
+          imgURL9?: undefined;
+          imgURL10?: undefined;
+          des?: undefined;
+        }
+    )[]
+  ) => {
     const shuffledArray = [...array];
     for (let i = shuffledArray.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -54,7 +247,6 @@ const Swiper = () => {
     <>
       <div className="swiper-copy">
         <SwiperCore
-        
           slidesPerView={1}
           spaceBetween={4}
           pagination={{
@@ -77,11 +269,9 @@ const Swiper = () => {
           modules={[Pagination]}
           className="mySwiper"
         >
-          
           {random.map((item, i) => (
             <SwiperSlide key={i}>
               <div className="swiper-box">
-
                 <Link href={`/shop/${item.id}`} passHref>
                   <img src={item.imgURL} alt="" />
                 </Link>

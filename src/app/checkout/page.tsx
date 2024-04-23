@@ -1,15 +1,14 @@
-import Link from "next/link";
-
-const Cart = () => {
+const Checkout = () => {
   return (
     <>
-      <div className="cart">
+      <div className="checkout">
         <div className="container">
-          <div className="cart-content">
-            <div className="cart-title">
-              <h2>Your cart</h2>
-            </div>
-            <div className="cart-big-content">
+          <div className="checkout-content">
+            <div className="checkout-first">
+              <div className="checkout-title">
+                <h3>Summary</h3>
+                <p>Check your order to get qualified service</p>
+              </div>
               <div className="first-cart">
                 <div className="cart-box">
                   <div className="cart-img">
@@ -224,29 +223,87 @@ const Cart = () => {
                   </div>
                 </div>
               </div>
-              <div className="second-cart">
-                <div className="order-summary">
-                  <h6>Order Summary</h6>
-                  <div className="order-summary-info">
-                    <h3>Subtotal</h3>
-                    <h4>$40.00 USD</h4>
-                  </div>
-                  <div className="order-summary-info">
-                    <h3>FEE ( 20% )</h3>
-                    <h4>$0.00 USD</h4>
-                  </div>
-                  <div className="order-summary-info">
-                    <h3>Total</h3>
-                    <h4>$40.00 USD</h4>
-                  </div>
-                  <div className="order-summary-input">
-                    <input type="text" placeholder="Promocode" />
-                  </div>
-                  <Link href="/checkout">
-                    <div className="order-summary-btn">
-                      <button>Checkout</button>
+              <div className="shipping">
+                <h2>Available sheeping method</h2>
+                <div className="shipping-box">
+                  <div className="shipping-one">
+                    <div className="shipping-img">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <rect
+                          x="0.4"
+                          y="0.4"
+                          width="23.2"
+                          height="23.2"
+                          rx="11.6"
+                          fill="white"
+                        />
+                        <rect
+                          x="0.4"
+                          y="0.4"
+                          width="23.2"
+                          height="23.2"
+                          rx="11.6"
+                          stroke="black"
+                          stroke-width="0.8"
+                        />
+                        <circle cx="12.0001" cy="12" r="6.4" fill="#393939" />
+                      </svg>
                     </div>
-                  </Link>
+                    <div className="shipping-days">
+                      <h5>3 days</h5>
+                      <h3>Shipping</h3>
+                    </div>
+                  </div>
+                  <div className="shipping-two">
+                    <h4>$40.00 USD</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="checkout-second">
+              <div className="payment">
+                <div className="payment-title">
+                  <h2>Payment details</h2>
+                  <p>Check your order to get qualified service</p>
+                </div>
+                <div className="payment-section">
+                  <h3>EMAIL</h3>
+                  <input type="text" placeholder="Email" />
+                </div>
+                <div className="payment-section">
+                  <h3>CARD DETAILS</h3>
+                  <div className="input-relative">
+                    <input type="text" placeholder="Card number" />
+                    <div className="input-absolute">
+                      <input type="number" placeholder="Date" />
+                      <input type="number" placeholder="CVV" />
+                    </div>
+                  </div>
+                </div>
+                <div className="payment-section">
+                  <h3>CARD OWNER</h3>
+                  <input type="text" placeholder="Name" />
+                </div>
+                <div className="payment-info">
+                  <h3>Subtotal</h3>
+                  <h3>$40.00 USD</h3>
+                </div>
+                <div className="payment-info">
+                  <h3>FEE ( 20% )</h3>
+                  <h3>$0.00 USD</h3>
+                </div>
+                <div className="payment-info">
+                  <h3>Total</h3>
+                  <h3>$40.00 USD</h3>
+                </div>
+                <div className="pay-btn">
+                  <button>Pay $40.00</button>
                 </div>
               </div>
             </div>
@@ -257,4 +314,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default Checkout;

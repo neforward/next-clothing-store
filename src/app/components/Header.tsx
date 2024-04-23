@@ -100,7 +100,9 @@ const Header = () => {
                   </svg>
                 </div>
               </a>
-              <div className="bg-cart"></div>
+              <Link href="/cart">
+                <div className="bg-cart"></div>
+              </Link>
             </div>
             <div className="burger-menu">
               <div
