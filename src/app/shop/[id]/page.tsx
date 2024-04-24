@@ -16,9 +16,9 @@ export default function ShopItem() {
   const clothingData = useSelector(
     (state: RootState) => state.clothing.clothingData
   );
-  const normalizedId = Array.isArray(id) ? id[0] : id;
+  const transformedId = Array.isArray(id) ? id[0] : id;
   const clothing = clothingData.find(
-    (item) => item && item.id === parseInt(normalizedId)
+    (item) => item && item.id === parseInt(transformedId)
   );
 
   if (!clothing) {
@@ -216,7 +216,7 @@ export default function ShopItem() {
                           />
                         </svg>
                       </button>
-                      <input type="number" value={1} readOnly/>
+                      <input type="number" value={1} readOnly />
                       <button>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
