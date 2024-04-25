@@ -1606,7 +1606,38 @@ const clothingData = [
     imgURL6:
       "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0PXJKW215001JBLX/0PXJKW215001JBLX-pdp-6.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
   },
-
+  {
+    id: 81,
+    price: "135",
+    name: "BAPE Hoop Tie Dye Tee",
+    gender: "male",
+    brand: "Bape",
+    imgURL: `https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXVTK309010MGRX/0ZXVTK309010MGRX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80`,
+    imgURL2: `https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXVTK309010MGRX/0ZXVTK309010MGRX-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80`,
+  },
+  {
+    id: 82,
+    price: "211",
+    name: "Liquid Camo Tee",
+    type: "Hoodie",
+    gender: "male",
+    brand: "Bape",
+    imgURL:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXTEW209003MPPX/0ZXTEW209003MPPX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+    imgURL2:
+      "https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXTEW209003MPPX/0ZXTEW209003MPPX-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80",
+  },
+  {
+    id: 83,
+    price: "383",
+    name: "Metal Logo Pin Velour Pants",
+    gender: "male",
+    brand: "Bape",
+    imgURL: `https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXPTMX52053LBKX/0ZXPTMX52053LBKX-pdp-1.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80`,
+    imgURL2: `https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXPTMX52053LBKX/0ZXPTMX52053LBKX-pdp-2.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80`,
+    imgURL3: `https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXPTMX52053LBKX/0ZXPTMX52053LBKX-pdp-3.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80`,
+    imgURL4: `https://ithk-pro-itmall-item.oss-cn-hongkong.aliyuncs.com/2/product/0ZXPTMX52053LBKX/0ZXPTMX52053LBKX-pdp-4.jpg?x-oss-process=image/resize,m_pad,h_750,w_600/auto-orient,1/quality,Q_80`,
+  },
 ];
 
 const initialState = {

@@ -797,7 +797,7 @@ span.swiper-pagination-bullet {
   align-items: start;
   gap: 12px;
 }
-.brands-column span {
+.brands-column button {
   color: #000;
   font-size: 14px;
   font-weight: 600;
@@ -810,6 +810,8 @@ span.swiper-pagination-bullet {
 }
 .shop-catalog {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 33px;
 }
