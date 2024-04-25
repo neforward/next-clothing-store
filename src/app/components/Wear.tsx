@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Wear = () => {
   return (
     <>
@@ -6,7 +8,9 @@ const Wear = () => {
           <div className="wear-content">
             <div className="wear-first">
               <h2>How to wear a digital garment</h2>
-              <button>Visit shop</button>
+              <Link href="/shop">
+                <button>Visit shop</button>
+              </Link>
             </div>
             <div className="wear-second">
               <div className="steps">
@@ -38,9 +42,11 @@ const Wear = () => {
                   </div>
                 </div>
               </div>
-              <div className="btn-center">
-                <button>Visit shop</button>
-              </div>
+              <Link href="/shop">
+                <div className="btn-center">
+                  <button>Visit shop</button>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

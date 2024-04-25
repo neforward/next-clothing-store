@@ -19,7 +19,9 @@ const BestSeller = () => {
         <div className="container">
           <div className="top-btns">
             <button className="bs">NEW ARRIVALS</button>
-            <button className="va">View all</button>
+            <Link href="/shop">
+              <button className="va">View all</button>
+            </Link>
           </div>
         </div>
         <Swiper
