@@ -144,6 +144,9 @@ const Header = () => {
                   <Link href="/news" onClick={toggleMenu}>
                     <div className="nav-link">Meta News</div>
                   </Link>
+                  <Link href="/cart" onClick={toggleMenu}>
+                    <div className="nav-link">Cart</div>
+                  </Link>
                   <div className="nav-link">
                     <div className="social-links">
                       <a
