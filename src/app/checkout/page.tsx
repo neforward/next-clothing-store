@@ -250,7 +250,7 @@ const Checkout = () => {
                           height="23.2"
                           rx="11.6"
                           stroke="black"
-                          stroke-width="0.8"
+                          strokeWidth="0.8"
                         />
                         <circle cx="12.0001" cy="12" r="6.4" fill="#393939" />
                       </svg>
