@@ -8,7 +8,7 @@ const Header = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-  
+
   useEffect(() => {
     const body = document.querySelector("body");
     const navLinks = document.querySelectorAll<HTMLAnchorElement>(".header");
