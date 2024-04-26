@@ -588,9 +588,10 @@ span.swiper-pagination-bullet {
   padding-right: 100px;
 }
 .footer-res-div {
+  padding-left: 15px;
   display: flex;
-  align-items: center;
-  gap: 30px;
+  justify-content: space-between;
+  gap: 20px;
 }
 .footer-icons {
   display: flex;
