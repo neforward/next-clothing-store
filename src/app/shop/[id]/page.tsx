@@ -251,10 +251,10 @@ export default function ShopItem() {
                 <div className="shop-descriptions">
                   <p>
                     {clothing.des}
-                    BalmLabs is a Ghana-based Digital Fashion House that
+                    Rick Owens is a Ghana-based Digital Fashion House that
                     specializes in digital-only media for fashion brands. Baboa
                     Tachie-Menson – the designer behind the BTM studios by
-                    Balmlabs – shares that digital fashion has helped her to
+                    Rick Owens – shares that digital fashion has helped her to
                     push the boundaries of the traditional industry and simply
                     concentrate on the creative process of designing the
                     clothes. In digital fashion there is no need to provide
@@ -274,9 +274,8 @@ export default function ShopItem() {
                     forms. The fabrics and materials used mainly represent silk,
                     plastic, and rubber.
                   </p>
-                  <p>Color: bright orange.</p>
                   <p>Type: {clothing.type}</p>
-                  <p>Digital clothes fit all sizes.</p>
+                  <p>Rick Owens clothes fit all sizes.</p>
                 </div>
               </div>
             </div>

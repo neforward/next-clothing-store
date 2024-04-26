@@ -14,9 +14,24 @@ export default function Shop() {
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = clothingData.slice(indexOfFirstItem, indexOfLastItem);
-  const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
-  const nextPage = () => setCurrentPage(currentPage + 1);
-  const prevPage = () => setCurrentPage(currentPage - 1);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  const paginate = (pageNumber: number) => {
+    setCurrentPage(pageNumber);
+    scrollToTop();
+  };
+  const nextPage = () => {
+    setCurrentPage(currentPage + 1);
+    scrollToTop();
+  };
+  const prevPage = () => {
+    setCurrentPage(currentPage - 1);
+    scrollToTop();
+  };
 
   return (
     <>
@@ -25,15 +40,6 @@ export default function Shop() {
           <div className="shop-content">
             <div className="shop-top">
               <h2>All Clothing</h2>
-              <div className="select-category">
-                <select className="sort" name="" id="">
-                  <option value="">Default sorting</option>
-                  <option value="latest">Sort by latest</option>
-                  <option value="price-low">Sort by price: low to high</option>
-                  <option value="price-high">Sort by price: high to low</option>
-                </select>
-                <span>SORT BY</span>
-              </div>
             </div>
             <div className="shop-main">
               <div className="shop-catalog">

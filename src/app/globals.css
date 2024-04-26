@@ -1,7 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.no-scroll {
+  overflow: hidden;
+}
+.unclickable {
+  pointer-events: none;
+}
 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
 body {
   margin: 0 auto;
   padding: 0;
@@ -454,6 +468,7 @@ span.swiper-pagination-bullet {
   border: 1px solid var(--tertiary, #939393);
   padding: 10px 30px 10px 30px;
   transition: 0.3s;
+  cursor: pointer;
 }
 .news-box-info button:hover {
   background: var(--tertiary, #393939);
@@ -638,6 +653,7 @@ span.swiper-pagination-bullet {
   position: relative;
   z-index: 2;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .menu-btn .bar {
@@ -721,8 +737,7 @@ span.swiper-pagination-bullet {
 .social-links {
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding-left: 15px;
+  gap: 5px;
 }
 .btn-center {
   display: none;
@@ -736,7 +751,7 @@ span.swiper-pagination-bullet {
 }
 .shop-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-bottom: 16px;
 }
@@ -1183,10 +1198,7 @@ input::-webkit-inner-spin-button {
   text-decoration-line: underline;
   margin: 0;
 }
-.collaboration .container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 .collab-mail {
   padding-top: 32px;
   padding-bottom: 43px;
@@ -1970,6 +1982,10 @@ span.dots {
   }
 }
 @media screen and (max-width: 1200px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .checkout-content {
     flex-direction: column;
   }
@@ -2014,10 +2030,6 @@ span.dots {
   .circle {
     display: none;
   }
-  .news-top-btns {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
   .carti-content {
     flex-direction: column;
     gap: 0;
@@ -2050,10 +2062,7 @@ span.dots {
     align-items: center;
     justify-content: center;
   }
-  .shop-top {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+
   .news-box {
     flex-direction: column;
     padding: 16px 16px 16px 16px;
@@ -2098,6 +2107,13 @@ span.dots {
     justify-content: center;
     flex-direction: column;
   }
+  .shop-photo {
+    display: none;
+  }
+  .shop-detail-quantity {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .detail-top {
     justify-content: center;
     flex-direction: column;
@@ -2107,8 +2123,6 @@ span.dots {
   .shop-descriptions {
     justify-content: center;
     align-items: center;
-    padding-left: 15px;
-    padding-left: 15px;
   }
   .shop-descriptions p {
     max-width: 350px;
@@ -2128,7 +2142,6 @@ span.dots {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 15px;
   }
   .cart-title h2 {
     font-size: 20px;
@@ -2249,10 +2262,6 @@ span.dots {
   .second-header {
     display: none;
   }
-  .header {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
   .header-logo svg {
     position: relative;
     z-index: 10;
@@ -2280,10 +2289,6 @@ span.dots {
   }
   .new-arrivals {
     padding-top: 20px;
-  }
-  .wear-top .container {
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 @media screen and (max-width: 639px) {

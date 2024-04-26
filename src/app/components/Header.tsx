@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,6 +8,24 @@ const Header = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  
+  useEffect(() => {
+    const body = document.querySelector("body");
+    const navLinks = document.querySelectorAll<HTMLAnchorElement>(".header");
+    if (body) {
+      if (menuOpen) {
+        body.classList.add("no-scroll", "unclickable");
+        navLinks.forEach((link: HTMLAnchorElement) => {
+          link.style.pointerEvents = "auto";
+        });
+      }
+    }
+    return () => {
+      if (body) {
+        body.classList.remove("no-scroll", "unclickable");
+      }
+    };
+  }, [menuOpen]);
 
   return (
     <>
@@ -32,7 +50,7 @@ const Header = () => {
                 </Link>
                 <Link href="/wear">How to Wear</Link>
                 <Link href="/collab">Collaboration</Link>
-                <Link href="/news">Meta News</Link>
+                <Link href="/news">News</Link>
               </nav>
             </div>
             <div className="second-header">
@@ -116,18 +134,6 @@ const Header = () => {
               <div className="burger-nav">
                 <nav className={`nav-menu ${menuOpen ? "active" : ""}`}>
                   <div className="gap-rows">
-                    <Link href="">
-                      <div className="row-items" onClick={toggleMenu}>
-                        Woman
-                        <span>ITEMS</span>
-                      </div>
-                    </Link>
-                    <Link href="">
-                      <div className="row-items" onClick={toggleMenu}>
-                        Man/Unisex
-                        <span>ITEMS</span>
-                      </div>
-                    </Link>
                     <Link href="/shop">
                       <div className="row-items" onClick={toggleMenu}>
                         All
@@ -142,7 +148,7 @@ const Header = () => {
                     <div className="nav-link">Collaboration</div>
                   </Link>
                   <Link href="/news" onClick={toggleMenu}>
-                    <div className="nav-link">Meta News</div>
+                    <div className="nav-link">News</div>
                   </Link>
                   <Link href="/cart" onClick={toggleMenu}>
                     <div className="nav-link">Cart</div>
