@@ -239,6 +239,7 @@ const Swiper = () => {
 
   const [random, setRandom] = useState<ClothingItem[]>([]);
   useEffect(() => {
+    // @ts-ignore
     const shuffledData = shuffleArray(clothingData);
     const randomSlice: any = shuffledData.slice(0, 16);
     setRandom(randomSlice);
